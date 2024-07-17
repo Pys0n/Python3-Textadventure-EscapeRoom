@@ -20,7 +20,7 @@ roomA2 = Room(
 roomB1 = Room(
     'B1', 'A1', None, None, None,
     {'dn':'code:'+code, 'dw':None, 'de':None, 'ds':None},
-    [Book(), Table(Note('Code: '+code)), Plant(), Bed()]
+    [Book(), Table(Note('code: '+code)), Plant(), Bed()]
     )
 
 roomB2 = Room(

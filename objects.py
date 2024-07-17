@@ -6,55 +6,55 @@ class Object:
 
 class Book(Object):
     def __init__(self, item=None):
-        super().__init__('Buch', item, 10)
+        super().__init__('Book', item, 10)
 
 class Bookpile(Object):
     def __init__(self, item=None):
-        super().__init__('Bücherstapel', item, 2)
+        super().__init__('Bookpile', item, 2)
 
 class Rubbishbin(Object):
     def __init__(self, item=None):
-        super().__init__('Mülleimer', item, 5)
+        super().__init__('Trash Bin', item, 5)
 
 class Shelf(Object):
     def __init__(self, item=None):
-        super().__init__('Regal', item, 5)
+        super().__init__('Shelf', item, 5)
 
 class Plant(Object):
     def __init__(self, item=None):
-        super().__init__('Pflanze', item, 5)
+        super().__init__('Plant', item, 5)
 
 class Table(Object):
     def __init__(self, item=None):
-        super().__init__('Tisch', item, 3.3)
+        super().__init__('Table', item, 3.3)
 
 class Wardrobe(Object):
     def __init__(self, item=None):
-        super().__init__('Kleiderschrank', item, 2)
+        super().__init__('Wardrobe', item, 2)
 
 class Bed(Object):
     def __init__(self, item=None):
-        super().__init__('Bett', item, 2)
+        super().__init__('Bed', item, 2)
 
 class Chair(Object):
     def __init__(self, item=None):
-        super().__init__('Stuhl', item, 2.5)
+        super().__init__('Chair', item, 2.5)
 
 class Fridge(Object):
     def __init__(self, item=None):
-        super().__init__('Kühlschrank', item, 2.5)
+        super().__init__('Fridge', item, 2.5)
 
 class Socket(Object):
     def __init__(self, item=None):
-        super().__init__('Steckdose', item, 5)
+        super().__init__('Socket', item, 5)
 
 class Window(Object):
     def __init__(self, item=None):
-        super().__init__('Fenster', item, 5)
+        super().__init__('Window', item, 5)
 
 class Mobile(Object):
     def __init__(self, item=None):
-        super().__init__('Handy', item, 10)
+        super().__init__('Smartphone', item, 10)
 
 class Computer(Object):
     def __init__(self, item=None):
@@ -62,27 +62,27 @@ class Computer(Object):
 
 class Notebook(Object):
     def __init__(self, item=None):
-        super().__init__('Laptop', item, 5)
+        super().__init__('Notebook', item, 5)
 
 class Paper(Object):
     def __init__(self, item=None):
-        super().__init__('Papier', item, 100)
+        super().__init__('Paper', item, 100)
 
 class Pen(Object):
     def __init__(self, item=None):
-        super().__init__('Stift', item, 50)
+        super().__init__('Pen', item, 50)
 
 class Painting(Object):
     def __init__(self, item=None):
-        super().__init__('Gemälde', item, 10)
+        super().__init__('Painting', item, 10)
 
 class Toilet(Object):
     def __init__(self, item=None):
-        super().__init__('Toilette', item, 3.3)
+        super().__init__('Toilet', item, 3.3)
 
 class Diary(Object):
     def __init__(self, item=None):
-        super().__init__('Tagebuch', item, 1)
+        super().__init__('Diary', item, 1)
 
 # SECRET
 

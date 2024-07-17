@@ -74,7 +74,7 @@ roomB4 = Room(
 roomB5 = Room(
     'B5', None, None, 'B6', 'C5',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Table(Note('Ich habs fast, die dritte Stelle\nwar '+code[2]+' oder '+str(int(code)+10)[2]+'!'))]
+    [Table(Note('I almost got it, the third digit\nwas '+code[2]+' or '+str(int(code)+10)[2]+'!'))]
     )
 
 roomB6 = Room(
@@ -140,7 +140,7 @@ roomD1 = Room(
 roomD2 = Room(
     'D2', None, None, 'D3', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Paper(Note('Der Tür-Code...\nWie lautet der nochmal?\nAber ich weiß er beginnt mit:\n '+code[1]+code[0]+' oder andersrum.'))]
+    [Paper(Note('The code...\nWhat is it again?\nBut I know that it starts with:\n '+code[1]+code[0]+' or the other way around.'))]
     )
 
 roomD3 = Room(
@@ -188,7 +188,7 @@ roomE2 = Room(
 roomE3 = Room(
     'E3', None, 'E2', 'E4', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Mobile(MobileMessage('Du hattest mich wegen der 4. Stelle des Codes gefragt!?\nDie müsste '+code[3]+' sein.\n\nJohanna'))]
+    [Mobile(MobileMessage('You asked me about the 4th digit of the code!?\nIt should be '+code[3]+'.\n\nJohanna'))]
     )
 
 roomE4 = Room(
@@ -290,7 +290,7 @@ roomG5 = Room(
 roomG6 = Room(
     'G6', None, 'G5', None, None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Secret(SecretText('Das war schwer!\nAber es wird noch schwerer?'))]
+    [Secret(SecretText('That was hard!\nBut it gets even harder!'))]
     )
 
 roomG7 = Room(

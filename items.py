@@ -6,47 +6,47 @@ class Item:
 
 class GreenKey(Item):
     def __init__(self):
-        super().__init__('Grüner Schlüssel')
+        super().__init__('Green Key')
 
 class GoldenKey(Item):
     def __init__(self):
-        super().__init__('Goldener Schlüssel')
+        super().__init__('Golden Key')
 
 class GreenKeycard(Item):
     def __init__(self):
-        super().__init__('Grüne Keycard')
+        super().__init__('Green Keycard')
 
 class YellowKeycard(Item):
     def __init__(self):
-        super().__init__('Gelbe Keycard')
+        super().__init__('Yellow Keycard')
 
 class WhiteKeycard(Item):
     def __init__(self):
-        super().__init__('Weiße Keycard')
+        super().__init__('White Keycard')
 
 class BlueKeycard(Item):
     def __init__(self):
-        super().__init__('Blaue Keycard')
+        super().__init__('Blue Keycard')
 
 class RedKeycard(Item):
     def __init__(self):
-        super().__init__('Rote Keycard')
+        super().__init__('Red Keycard')
 
 # Note
 
 class Note(Item):
     def __init__(self, text):
-        super().__init__('Notiz')
+        super().__init__('Note')
         self.text = text
 
 class MobileMessage(Item):
     def __init__(self, text):
-        super().__init__('Handy-Nachricht')
+        super().__init__('Smartphone-Message')
         self.text = text
 
 class DiaryEntry(Item):
     def __init__(self, text):
-        super().__init__('Tagebuch-Eintrag')
+        super().__init__('Diary-Entry')
         self.text = text
 
 # SECRET

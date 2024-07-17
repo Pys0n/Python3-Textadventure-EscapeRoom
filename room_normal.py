@@ -43,7 +43,7 @@ roomA5 = Room(
 roomB1 = Room(
     'B1', 'A1', None, 'B2', 'C1',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Mobile(MobileMessage('Hallo Eric,\n der Code für die 2. Tür ist:\n'+code2)),
+    [Mobile(MobileMessage('Hello Eric,\nthe code for the 2nd door is:\n'+code2)),
         Shelf(), Plant(), Plant(), Socket()]
     )
 
@@ -83,7 +83,7 @@ roomC2 = Room(
     'C2', None, 'C1', 'C3', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Book(), Book(), Book(), Book(),
-        Bookpile(), Bookpile(), Secret(SecretText('Schön dich zu sehen!!!')), Paper(),
+        Bookpile(), Bookpile(), Secret(SecretText('Nice to see you!')), Paper(),
         Paper(), Pen(), Table(), Chair(),
         Chair(), Shelf(), Shelf(), Mobile()]
     )

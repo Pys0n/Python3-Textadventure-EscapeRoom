@@ -8,9 +8,9 @@ code = str(randint(1000,9999))
 roomA1 = Room(
     'A1', None, None, None, 'B1',
     {'dn':None, 'dw':None, 'de':None, 'ds':GreenKey()},
-    [Paper(Note('weitere Projekte: github.com/Pys0n/')),
-        Secret(SecretText('Findest du auch die anderen???')),
-        Paper(Note('Creator: Pys0n (Jason Krüger)'))]
+    [Paper(Note('more Projects: github.com/Pys0n/')),
+        Secret(SecretText('Carry on!')),
+        Paper(Note('Developer: Pys0n (Jason Krüger)'))]
     )
 
 roomA2 = Room(
