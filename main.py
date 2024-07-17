@@ -508,15 +508,15 @@ def main():
                             print('Unfortunately, you haven\'t found anything!\n')
                             input('Continue...')
                             eval('system("'+clear+'")')
-                        elif room.interactions[index].item.name == 'Notiz':
+                        elif room.interactions[index].item.name == 'Note':
                             print('You have found a note:\n')
                             print(room.interactions[index].item.text)
                             input('\nContinue...')
-                        elif room.interactions[index].item.name == 'Handy-Nachricht':
+                        elif room.interactions[index].item.name == 'Smartphone-Message':
                             print('You have found a message on a smartphone:\n')
                             print(room.interactions[index].item.text)
                             input('\nContinue...')
-                        elif room.interactions[index].item.name == 'Tagebuch-Eintrag':
+                        elif room.interactions[index].item.name == 'Diary-Entry':
                             print('You have found an entry in a diary:\n')
                             print(room.interactions[index].item.text)
                             input('\nContinue...')
