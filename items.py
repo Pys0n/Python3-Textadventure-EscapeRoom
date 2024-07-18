@@ -49,6 +49,11 @@ class DiaryEntry(Item):
         super().__init__('Diary-Entry')
         self.text = text
 
+class CarpetText(Item):
+    def __init__(self, text):
+        super().__init__('Carpet-Text')
+        self.text = text
+
 # SECRET
 
 class SecretText(Item):

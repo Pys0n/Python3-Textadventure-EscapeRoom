@@ -520,6 +520,10 @@ def main():
                             print('You have found an entry in a diary:\n')
                             print(room.interactions[index].item.text)
                             input('\nContinue...')
+                        elif room.interactions[index].item.name == 'Carpet-Text':
+                            print('It says on the carpet:\n')
+                            print(room.interactions[index].item.text)
+                            input('\nContinue...')
                         elif room.interactions[index].name == 'SECRET':
                             print('You have found a secret:\n')
                             print(room.interactions[index].item.text)
@@ -580,7 +584,7 @@ if __name__ == '__main__':
                 print('\t2 - Easy')
                 print('\t3 - Normal')
                 print('\t4 - Hard')
-                print('\t5 - ???        [not available]')
+                print('\t5 - ???')
                 print('\t0 - Back\n')
                 choice = input('Choose: ')
                 if choice == '1':
@@ -817,25 +821,29 @@ if __name__ == '__main__':
                         if room_choice == '0':
                             break
                         elif room_choice == '1':
+                            #lvl = 3
+                            
+                            print('Loading...')
+                            
+                            from room_extreme import *
+                            
                             eval('system("'+clear+'")')
-                            print('Dieses Level ist leider noch nicht verfügbar!\n')
-                            input('Continue...')
-                            #room = roomB1
-                            #escape = True
-                            #start_time=time()
-                            #win = main()
-                            #end_time=time()-start_time
-                            #eval('system("'+clear+'")')
-                            #if win:
-                            #    print('You have escaped!\n')
-                            #    print('Time required:', str(round(end_time,2))+'s')
-                            #    jn = input('If this time is to be saved (y/n)? ') 
-                            #    if jn.lower() != 'n':
-                            #        name = input('Enter your name: ')
-                            #        #with open(str(PATH)+'\\escapeRoom\\extreme_data.txt', 'a', encoding='utf-8') as file:       
-                            #        with open(str(PATH)+'/extreme_data.txt', 'a', encoding='utf-8') as file:
-                            #            file.write(str(round(end_time,2))+'|'+name+'\n')
-                            #            file.close()
+
+                            escape = True
+                            start_time=time()
+                            win = main()
+                            end_time=time()-start_time
+                            eval('system("'+clear+'")')
+                            if win:
+                                print('You have escaped!\n')
+                                print('Time required:', str(round(end_time,2))+'s')
+                                jn = input('If this time is to be saved (y/n)? ') 
+                                if jn.lower() != 'n':
+                                    name = input('Enter your name: ')
+                                    #with open(str(PATH)+'\\escapeRoom\\extreme_data.txt', 'a', encoding='utf-8') as file:       
+                                    with open(str(PATH)+'/extreme_data.txt', 'a', encoding='utf-8') as file:
+                                        file.write(str(round(end_time,2))+'|'+name+'\n')
+                                        file.close()
                         if room_choice == '2':
                             eval('system("'+clear+'")')
                             times:dict = {}

@@ -82,7 +82,83 @@ class Toilet(Object):
 
 class Diary(Object):
     def __init__(self, item=None):
-        super().__init__('Diary', item, 1)
+        super().__init__('Diary', item, 2)
+
+class BedsideTable(Object):
+    def __init__(self, item=None):
+        super().__init__('Bedside table', item, 3.3)
+
+class Couch(Object):
+    def __init__(self, item=None):
+        super().__init__('Couch', item, 2)
+
+class TV(Object):
+    def __init__(self, item=None):
+        super().__init__('TV', item, 4)
+
+class TVTable(Object):
+    def __init__(self, item=None):
+        super().__init__('TV-Table', item, 3.3)
+
+class RemoteControl(Object):
+    def __init__(self, item=None):
+        super().__init__('Remote control', item, 10)
+
+class CoffeeTable(Object):
+    def __init__(self, item=None):
+        super().__init__('Coffee table', item, 3.3)
+
+class Armchair(Object):
+    def __init__(self, item=None):
+        super().__init__('Armchair', item, 3.3)
+
+class Bathtub(Object):
+    def __init__(self, item=None):
+        super().__init__('Bathtub', item, 3.3)
+
+class Shower(Object):
+    def __init__(self, item=None):
+        super().__init__('Shower', item, 3.3)
+
+class Washbasin(Object):
+    def __init__(self, item=None):
+        super().__init__('Washbasin', item, 5)
+
+class ToiletPaper(Object):
+    def __init__(self, item=None):
+        super().__init__('Toilet paper', item, 5)
+
+class Towel(Object):
+    def __init__(self, item=None):
+        super().__init__('Towel', item, 5)
+
+class Mirror(Object):
+    def __init__(self, item=None):
+        super().__init__('Mirror', item, 5)
+
+class Stove(Object):
+    def __init__(self, item=None):
+        super().__init__('Stove', item, 5)
+
+class Oven(Object):
+    def __init__(self, item=None):
+        super().__init__('Oven', item, 2)
+
+class KitchenCupboard(Object):
+    def __init__(self, item=None):
+        super().__init__('Kitchen cupboard', item, 2)
+
+class Carpet(Object):
+    def __init__(self, item=None):
+        super().__init__('Carpet', item, 2)
+
+class Carton(Object):
+    def __init__(self, item=None):
+        super().__init__('Carton', item, 3.3)
+
+class StorageShelf(Object):
+    def __init__(self, item=None):
+        super().__init__('Storage shelf', item, 2)
 
 # SECRET
 
