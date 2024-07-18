@@ -336,7 +336,7 @@ def main():
                         run += 1
                     num = input('\nWhich key would you like to use? Number: ')
                     eval('system("'+clear+'")')
-                    other = ['', '']
+                    different = ''
                     try:
                         if int(num) > len(key_list) or int(num) <= 0:
                             print('The number', num, 'does not exist!')
@@ -349,14 +349,14 @@ def main():
                         else:
                             print('This key does not fit.')
                             input('\nContinue...')
-                            different = 'different'
+                            different = 'different '
                     except:
                         print(num, 'is not a number!')
                         input('\nContinue...')
                     eval('system("'+clear+'")')
                     if error and escape:
                         eval('system("'+clear+'")')
-                        print('You need a '+different+' key or keycard to open the door!\n')
+                        print('You need a '+different+'key or keycard to open the door!\n')
                         input('Continue...')
                         eval('system("'+clear+'")')
         elif choice.lower() == 'd':
