@@ -5589,7 +5589,7 @@ rooms = {
     'B100.18':roomB100_18, 'B100.19':roomB100_19, 'B117BA':roomB117BA, 'B117BE':roomB117BE, 'B117KI':roomB117KI, 'B117LI':roomB117LI, 'B118BA':roomB118BA, 'B118BE':roomB118BE, 'B118KI':roomB118KI, 'B118LI':roomB118LI, # B117 - B118
     'B100.20':roomB100_20, 'B100.21':roomB100_21, 'B119BA':roomB119BA, 'B119BE':roomB119BE, 'B119KI':roomB119KI, 'B119LI':roomB119LI, 'B120BA':roomB120BA, 'B120BE':roomB120BE, 'B120KI':roomB120KI, 'B120LI':roomB120LI, # B119 - B120
     # M
-    'M100.1':roomM100_1, 'M100.2':roomM100_2, 'M100.1':roomM100_3, 'M100.4':roomM100_4,
+    'M100.1':roomM100_1, 'M100.2':roomM100_2, 'M100.3':roomM100_3, 'M100.4':roomM100_4,
 
     # Floor 2
     # A
@@ -5617,7 +5617,7 @@ rooms = {
     'B200.18':roomB200_18, 'B200.19':roomB200_19, 'B217BA':roomB217BA, 'B217BE':roomB217BE, 'B217KI':roomB217KI, 'B217LI':roomB217LI, 'B218BA':roomB218BA, 'B218BE':roomB218BE, 'B218KI':roomB218KI, 'B218LI':roomB218LI, # B117 - B118
     'B200.20':roomB200_20, 'B200.21':roomB200_21, 'B219BA':roomB219BA, 'B219BE':roomB219BE, 'B219KI':roomB219KI, 'B219LI':roomB219LI, 'B220BA':roomB220BA, 'B220BE':roomB220BE, 'B220KI':roomB220KI, 'B220LI':roomB220LI, # B119 - B120
     # M
-    'M200.1':roomM200_1, 'M200.2':roomM200_2, 'M200.1':roomM200_3, 'M200.4':roomM200_4,
+    'M200.1':roomM200_1, 'M200.2':roomM200_2, 'M200.3':roomM200_3, 'M200.4':roomM200_4,
 
     # Floor 3
     # A
@@ -5645,7 +5645,7 @@ rooms = {
     'B300.18':roomB300_18, 'B300.19':roomB300_19, 'B317BA':roomB317BA, 'B317BE':roomB317BE, 'B317KI':roomB317KI, 'B317LI':roomB317LI, 'B318BA':roomB318BA, 'B318BE':roomB318BE, 'B318KI':roomB318KI, 'B318LI':roomB318LI, # B117 - B118
     'B300.20':roomB300_20, 'B300.21':roomB300_21, 'B319BA':roomB319BA, 'B319BE':roomB319BE, 'B319KI':roomB319KI, 'B319LI':roomB319LI, 'B320BA':roomB320BA, 'B320BE':roomB320BE, 'B320KI':roomB320KI, 'B320LI':roomB320LI, # B119 - B120
     # M
-    'M300.1':roomM300_1, 'M300.2':roomM300_2, 'M300.1':roomM300_3, 'M300.4':roomM300_4,
+    'M300.1':roomM300_1, 'M300.2':roomM300_2, 'M300.3':roomM300_3, 'M300.4':roomM300_4,
 }
 
 room = roomA303LI
