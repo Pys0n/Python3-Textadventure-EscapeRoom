@@ -19,7 +19,6 @@ elif os == 'Windows':
 
 def main():
     global escape, room, secrets, secret_data, lvl
-    inventory = []
     while escape:
         eval('system("'+clear+'")')
 
@@ -569,6 +568,7 @@ if __name__ == '__main__':
         file.close() 
 
     while True:
+        inventory = []
         eval('system("'+clear+'")')
         print('\t\t--- Python3 Escape Room ---\n')
         print('\t1 - Choose Escape Room')
@@ -600,6 +600,7 @@ if __name__ == '__main__':
                         elif room_choice == '1':
                 
                             from room_tutorial import *
+                            inventory = []
                             
                             escape = True
                             start_time=time()
@@ -656,6 +657,7 @@ if __name__ == '__main__':
                             lvl = 0
                             
                             from room_easy import *
+                            inventory = []
 
                             escape = True
                             start_time=time()
@@ -712,6 +714,7 @@ if __name__ == '__main__':
                             lvl = 1
 
                             from room_normal import *
+                            inventory = []
 
                             escape = True
                             start_time=time()
@@ -768,6 +771,7 @@ if __name__ == '__main__':
                             lvl = 2
                             
                             from room_hard import *
+                            inventory = []
 
                             escape = True
                             start_time=time()
