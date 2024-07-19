@@ -463,7 +463,7 @@ roomA100_11_1 = Room(
 roomA100_11_2 = Room(
     'A100.11.2 - Corridor',
     None, 'A100.11.1', 'M100.1', None,                               ########################### Mittelweg
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':None, 'de':KeySecurityDoorA100(), 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -1372,7 +1372,7 @@ roomB100_11_1 = Room(
 roomB100_11_2 = Room(
     'B100.11.2 - Corridor',
     None, 'M100.4', 'B100.11.1', None,                               ########################### Mittelweg
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeySecurityDoorB100(), 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -1829,49 +1829,79 @@ roomM100_1 = Room(
     'M100.1 - Corridor',
     None, 'A100.11.2', 'M100.2', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant()]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 roomM100_2 = Room(
     'M100.2 - Corridor',
     None, 'M100.1', 'M100.3', 'RM100',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant()]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 roomM100_3 = Room(
     'M100.3 - Corridor',
     'M200.3', 'M100.2', 'M100.4', 'RM100',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant()]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 roomM100_4 = Room(
     'M100.4 - Corridor',
     None, 'M100.3', 'B100.11.2', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant()]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 roomRM100 = Room(
     'M100 - Reception',
     'M100.2', 'KBM100.1', 'KBM100.2', 'Exit',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant()]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting(), Painting(), Painting(),
+    Painting(),
+    KeyHook(KeySecurityDoorA100()), KeyHook(KeySecurityDoorA200()), KeyHook(),
+    KeyHook(KeySecurityDoorB100()), KeyHook(KeySecurityDoorB200()), KeyHook(KeySecurityDoorB300())]
     )
 
 roomKBM100_1 = Room(
     'M100 - Key bearing 1',
     None, None, 'RM100', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant()]
+    [KeyHook(KeyA101()), KeyHook(KeyA102()), KeyHook(KeyA103()), KeyHook(KeyA104()), KeyHook(KeyA105()),
+     KeyHook(KeyA106()), KeyHook(KeyA107()), KeyHook(KeyA108()), KeyHook(KeyA108()), KeyHook(KeyA110()),
+     KeyHook(KeyA111()), KeyHook(KeyA112()), KeyHook(KeyA113()), KeyHook(KeyA114()), KeyHook(KeyA115()),
+     KeyHook(KeyA116()), KeyHook(KeyA117()), KeyHook(KeyA118()), KeyHook(KeyA118()), KeyHook(KeyA120()),
+     KeyHook(KeyA201()), KeyHook(KeyA202()), KeyHook(KeyA203()), KeyHook(KeyA204()), KeyHook(KeyA205()),
+     KeyHook(KeyA206()), KeyHook(KeyA207()), KeyHook(KeyA208()), KeyHook(KeyA208()), KeyHook(KeyA210()),
+     KeyHook(KeyA211()), KeyHook(KeyA212()), KeyHook(KeyA213()), KeyHook(KeyA214()), KeyHook(KeyA215()),
+     KeyHook(KeyA216()), KeyHook(KeyA217()), KeyHook(KeyA218()), KeyHook(KeyA218()), KeyHook(KeyA220()),
+     KeyHook(KeyA301()), KeyHook(KeyA302()), KeyHook(KeyA303()), KeyHook(KeyA304()), KeyHook(KeyA305()),
+     KeyHook(KeyA306()), KeyHook(KeyA307()), KeyHook(KeyA308()), KeyHook(KeyA308()), KeyHook(KeyA310()),
+     KeyHook(KeyA311()), KeyHook(KeyA312()), KeyHook(KeyA313()), KeyHook(KeyA314()), KeyHook(KeyA315()),
+     KeyHook(KeyA316()), KeyHook(KeyA317()), KeyHook(KeyA318()), KeyHook(KeyA318()), KeyHook(KeyA320())]
     )
 
 roomKBM100_2 = Room(
     'M100 - Key bearing 2',
     None, 'RM100', None, None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant()]
+    [KeyHook(KeyB101()), KeyHook(KeyB102()), KeyHook(KeyB103()), KeyHook(KeyB104()), KeyHook(KeyB105()),
+     KeyHook(KeyB106()), KeyHook(KeyB107()), KeyHook(KeyB108()), KeyHook(KeyB108()), KeyHook(KeyB110()),
+     KeyHook(KeyB111()), KeyHook(KeyB112()), KeyHook(KeyB113()), KeyHook(KeyB114()), KeyHook(KeyB115()),
+     KeyHook(KeyB116()), KeyHook(KeyB117()), KeyHook(KeyB118()), KeyHook(KeyB118()), KeyHook(KeyB120()),
+     KeyHook(KeyB201()), KeyHook(KeyB202()), KeyHook(KeyB203()), KeyHook(KeyB204()), KeyHook(KeyB205()),
+     KeyHook(KeyB206()), KeyHook(KeyB207()), KeyHook(KeyB208()), KeyHook(KeyB208()), KeyHook(KeyB210()),
+     KeyHook(KeyB211()), KeyHook(KeyB212()), KeyHook(KeyB213()), KeyHook(KeyB214()), KeyHook(KeyB215()),
+     KeyHook(KeyB216()), KeyHook(KeyB217()), KeyHook(KeyB218()), KeyHook(KeyB218()), KeyHook(KeyB220()),
+     KeyHook(KeyB301()), KeyHook(KeyB302()), KeyHook(KeyB303()), KeyHook(KeyB304()), KeyHook(KeyB305()),
+     KeyHook(KeyB306()), KeyHook(KeyB307()), KeyHook(KeyB308()), KeyHook(KeyB308()), KeyHook(KeyB310()),
+     KeyHook(KeyB311()), KeyHook(KeyB312()), KeyHook(KeyB313()), KeyHook(KeyB314()), KeyHook(KeyB315()),
+     KeyHook(KeyB316()), KeyHook(KeyB317()), KeyHook(KeyB318()), KeyHook(KeyB318()), KeyHook(KeyB320())]
     )
 
 ###########################################################################################################################################
@@ -2337,7 +2367,7 @@ roomA200_11_1 = Room(
 roomA200_11_2 = Room(
     'A200.11.2 - Corridor',
     None, 'A200.11.1', 'M200.1', None,                               ########################### Mittelweg
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':None, 'de':KeySecurityDoorA200(), 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -3246,7 +3276,7 @@ roomB200_11_1 = Room(
 roomB200_11_2 = Room(
     'B200.11.2 - Corridor',
     None, 'M200.4', 'B200.11.1', None,                               ########################### Mittelweg
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeySecurityDoorB200(), 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -3703,28 +3733,32 @@ roomM200_1 = Room(
     'M200.1 - Corridor',
     None, 'A200.11.2', 'M200.2', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M219')), Carpet(CarpetText('M220'))]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 roomM200_2 = Room(
     'M200.2 - Corridor',
     'M100.2', 'M200.1', 'M200.3', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M219')), Carpet(CarpetText('M220'))]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 roomM200_3 = Room(
     'M200.3 - Corridor',
     'M300.3', 'M200.2', 'M200.4', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M219')), Carpet(CarpetText('M220'))]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 roomM200_4 = Room(
     'M200.4 - Corridor',
     None, 'M200.3', 'B200.11.2', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M219')), Carpet(CarpetText('M220'))]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 
@@ -4178,7 +4212,7 @@ roomA300_11 = Room(
     'A300.11 - Corridor',
     'A300.10', 'A300SR', 'A300.11.1', 'A300.12',
     {'dn':None, 'dw':KeySRA300(), 'de':None, 'ds':None},
-    [Plant(), Plant(), Painting(), Painting()]
+    [Plant(), Plant(KeySRA300()), Painting(), Painting()]
     )
 
 roomA300_11_1 = Room(
@@ -4191,7 +4225,7 @@ roomA300_11_1 = Room(
 roomA300_11_2 = Room(
     'A300.11.2 - Corridor',
     None, 'A300.11.1', 'M300.1', None,                               ########################### Mittelweg
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':None, 'de':KeySecurityDoorA300(), 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -4201,7 +4235,7 @@ roomA300SR = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [StorageShelf(), StorageShelf(), StorageShelf(), StorageShelf(),
      StorageShelf(), StorageShelf(), StorageShelf(), StorageShelf(),
-     Carton(), Carton(), Carton(), Carton(),
+     Carton(), Carton(KeySecurityDoorA300()), Carton(), Carton(),
      Carton(), Carton(), Carton(), Carton()]
     )
 
@@ -5100,7 +5134,7 @@ roomB300_11_1 = Room(
 roomB300_11_2 = Room(
     'B300.11.2 - Corridor',
     None, 'M300.4', 'B300.11.1', None,                               ########################### Mittelweg
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeySecurityDoorB300(), 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -5557,28 +5591,32 @@ roomM300_1 = Room(
     'M300.1 - Corridor',
     None, 'A300.11.2', 'M300.2', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M319')), Carpet(CarpetText('M320'))]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 roomM300_2 = Room(
     'M300.2 - Corridor',
     'M200.2', 'M300.1', 'M300.3', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M319')), Carpet(CarpetText('M320'))]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 roomM300_3 = Room(
     'M300.3 - Corridor',
     None, 'M300.2', 'M300.4', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M319')), Carpet(CarpetText('M320'))]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 roomM300_4 = Room(
     'M300.4 - Corridor',
     None, 'M300.3', 'B300.11.2', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M319')), Carpet(CarpetText('M320'))]
+    [Plant(), Plant(), Plant(), Plant(),
+    Socket(), Painting()]
     )
 
 
