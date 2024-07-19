@@ -5670,4 +5670,3 @@ rooms = {
 }
 
 room = roomA303LI
-inventory = [KeyA303()]

@@ -826,6 +826,9 @@ if __name__ == '__main__':
                             print('Loading...')
                             
                             from room_extreme import *
+                            from keys_extreme import *
+
+                            inventory = [KeyA303()]
                             
                             eval('system("'+clear+'")')
 
