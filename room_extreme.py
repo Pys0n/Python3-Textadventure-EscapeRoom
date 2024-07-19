@@ -49,7 +49,7 @@ roomA101KI = Room(
 roomA100_01 = Room(
     'A100.01 - Corridor',
     None, 'A101LI', 'A102LI', 'A100.02',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA101(), 'de':KeyA102(), 'ds':None},
     [Plant(), Plant(), Window(), Carpet(CarpetText('A101')), Carpet(CarpetText('A102'))]
     )
 
@@ -136,7 +136,7 @@ roomA103KI = Room(
 roomA100_03 = Room(
     'A100.03 - Corridor',
     'A100.02', 'A103LI', 'A104LI', 'A100.04',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA103(), 'de':KeyA104(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A103')), Carpet(CarpetText('A104'))]
     )
 
@@ -223,7 +223,7 @@ roomA105KI = Room(
 roomA100_05 = Room(
     'A100.05 - Corridor',
     'A100.04', 'A105LI', 'A106LI', 'A100.06',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA105(), 'de':KeyA106(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A105')), Carpet(CarpetText('A106'))]
     )
 
@@ -310,7 +310,7 @@ roomA107KI = Room(
 roomA100_07 = Room(
     'A100.07 - Corridor',
     'A100.06', 'A107LI', 'A108LI', 'A100.08',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA107(), 'de':KeyA108(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A107')), Carpet(CarpetText('A108'))]
     )
 
@@ -397,7 +397,7 @@ roomA109KI = Room(
 roomA100_09 = Room(
     'A100.09 - Corridor',
     'A100.08', 'A109LI', 'A110LI', 'A100.10',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA109(), 'de':KeyA110(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A109')), Carpet(CarpetText('A110'))]
     )
 
@@ -449,7 +449,7 @@ roomA110KI = Room(
 roomA100_11 = Room(
     'A100.11 - Corridor',
     'A100.10', 'A100SR', 'A100.11.1', 'A100.12',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeySRA100(), 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -517,7 +517,7 @@ roomA111KI = Room(
 roomA100_12 = Room(
     'A100.12 - Corridor',
     'A100.11', 'A111LI', 'A112LI', 'A100.13',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA111(), 'de':KeyA112(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A111')), Carpet(CarpetText('A112'))]
     )
 
@@ -604,7 +604,7 @@ roomA113KI = Room(
 roomA100_14 = Room(
     'A100.14 - Corridor',
     'A100.13', 'A113LI', 'A114LI', 'A100.15',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA113(), 'de':KeyA114(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A113')), Carpet(CarpetText('A114'))]
     )
 
@@ -691,7 +691,7 @@ roomA115KI = Room(
 roomA100_16 = Room(
     'A100.16 - Corridor',
     'A100.15', 'A115LI', 'A116LI', 'A100.17',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA115(), 'de':KeyA116(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A115')), Carpet(CarpetText('A116'))]
     )
 
@@ -778,7 +778,7 @@ roomA117KI = Room(
 roomA100_18 = Room(
     'A100.18 - Corridor',
     'A100.17', 'A117LI', 'A118LI', 'A100.19',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA117(), 'de':KeyA118(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A117')), Carpet(CarpetText('A118'))]
     )
 
@@ -865,7 +865,7 @@ roomA119KI = Room(
 roomA100_20 = Room(
     'A100.20 - Corridor',
     'A100.19', 'A119LI', 'A120LI', 'A100.21',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA119(), 'de':KeyA120(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A119')), Carpet(CarpetText('A120'))]
     )
 
@@ -958,7 +958,7 @@ roomB101KI = Room(
 roomB100_01 = Room(
     'B100.01 - Corridor',
     None, 'B101LI', 'B102LI', 'B100.02',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB101(), 'de':KeyB102(), 'ds':None},
     [Plant(), Plant(), Window(), Carpet(CarpetText('B101')), Carpet(CarpetText('B102'))]
     )
 
@@ -1045,7 +1045,7 @@ roomB103KI = Room(
 roomB100_03 = Room(
     'B100.03 - Corridor',
     'B100.02', 'B103LI', 'B104LI', 'B100.04',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB103(), 'de':KeyB104(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B103')), Carpet(CarpetText('B104'))]
     )
 
@@ -1132,7 +1132,7 @@ roomB105KI = Room(
 roomB100_05 = Room(
     'B100.05 - Corridor',
     'B100.04', 'B105LI', 'B106LI', 'B100.06',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB105(), 'de':KeyB106(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B105')), Carpet(CarpetText('B106'))]
     )
 
@@ -1219,7 +1219,7 @@ roomB107KI = Room(
 roomB100_07 = Room(
     'B100.07 - Corridor',
     'B100.06', 'B107LI', 'B108LI', 'B100.08',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB107(), 'de':KeyB108(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B107')), Carpet(CarpetText('B108'))]
     )
 
@@ -1306,7 +1306,7 @@ roomB109KI = Room(
 roomB100_09 = Room(
     'B100.09 - Corridor',
     'B100.08', 'B109LI', 'B110LI', 'B100.10',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB109(), 'de':KeyB110(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B109')), Carpet(CarpetText('B110'))]
     )
 
@@ -1358,7 +1358,7 @@ roomB110KI = Room(
 roomB100_11 = Room(
     'B100.11 - Corridor',
     'B100.10', 'B100.11.1', 'B100SR', 'B100.12',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':None, 'de':KeySRB100(), 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -1426,7 +1426,7 @@ roomB111KI = Room(
 roomB100_12 = Room(
     'B100.12 - Corridor',
     'B100.11', 'B111LI', 'B112LI', 'B100.13',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB111(), 'de':KeyB112(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B111')), Carpet(CarpetText('B112'))]
     )
 
@@ -1513,7 +1513,7 @@ roomB113KI = Room(
 roomB100_14 = Room(
     'B100.14 - Corridor',
     'B100.13', 'B113LI', 'B114LI', 'B100.15',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB113(), 'de':KeyB114(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B113')), Carpet(CarpetText('B114'))]
     )
 
@@ -1600,7 +1600,7 @@ roomB115KI = Room(
 roomB100_16 = Room(
     'B100.16 - Corridor',
     'B100.15', 'B115LI', 'B116LI', 'B100.17',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB115(), 'de':KeyB116(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B115')), Carpet(CarpetText('B116'))]
     )
 
@@ -1687,7 +1687,7 @@ roomB117KI = Room(
 roomB100_18 = Room(
     'B100.18 - Corridor',
     'B100.17', 'B117LI', 'B118LI', 'B100.19',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB117(), 'de':KeyB118(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B117')), Carpet(CarpetText('B118'))]
     )
 
@@ -1774,7 +1774,7 @@ roomB119KI = Room(
 roomB100_20 = Room(
     'B100.20 - Corridor',
     'B100.19', 'B119LI', 'B120LI', 'B100.21',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB119(), 'de':KeyB120(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B119')), Carpet(CarpetText('B120'))]
     )
 
@@ -1923,7 +1923,7 @@ roomA201KI = Room(
 roomA200_01 = Room(
     'A200.01 - Corridor',
     None, 'A201LI', 'A202LI', 'A200.02',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA201(), 'de':KeyA202(), 'ds':None},
     [Plant(), Plant(), Window(), Carpet(CarpetText('A201')), Carpet(CarpetText('A202'))]
     )
 
@@ -2010,7 +2010,7 @@ roomA203KI = Room(
 roomA200_03 = Room(
     'A200.03 - Corridor',
     'A200.02', 'A203LI', 'A204LI', 'A200.04',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA203(), 'de':KeyA204(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A203')), Carpet(CarpetText('A204'))]
     )
 
@@ -2097,7 +2097,7 @@ roomA205KI = Room(
 roomA200_05 = Room(
     'A200.05 - Corridor',
     'A200.04', 'A205LI', 'A206LI', 'A200.06',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA205(), 'de':KeyA206(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A205')), Carpet(CarpetText('A206'))]
     )
 
@@ -2184,7 +2184,7 @@ roomA207KI = Room(
 roomA200_07 = Room(
     'A200.07 - Corridor',
     'A200.06', 'A207LI', 'A208LI', 'A200.08',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA207(), 'de':KeyA208(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A207')), Carpet(CarpetText('A208'))]
     )
 
@@ -2271,7 +2271,7 @@ roomA209KI = Room(
 roomA200_09 = Room(
     'A200.09 - Corridor',
     'A200.08', 'A209LI', 'A210LI', 'A200.10',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA209(), 'de':KeyA210(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A209')), Carpet(CarpetText('A210'))]
     )
 
@@ -2323,7 +2323,7 @@ roomA210KI = Room(
 roomA200_11 = Room(
     'A200.11 - Corridor',
     'A200.10', 'A200SR', 'A200.11.1', 'A200.12',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeySRA200(), 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -2391,7 +2391,7 @@ roomA211KI = Room(
 roomA200_12 = Room(
     'A200.12 - Corridor',
     'A200.11', 'A211LI', 'A212LI', 'A200.13',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA211(), 'de':KeyA212(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A211')), Carpet(CarpetText('A212'))]
     )
 
@@ -2478,7 +2478,7 @@ roomA213KI = Room(
 roomA200_14 = Room(
     'A200.14 - Corridor',
     'A200.13', 'A213LI', 'A214LI', 'A200.15',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA213(), 'de':KeyA214(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A213')), Carpet(CarpetText('A214'))]
     )
 
@@ -2565,7 +2565,7 @@ roomA215KI = Room(
 roomA200_16 = Room(
     'A200.16 - Corridor',
     'A200.15', 'A215LI', 'A216LI', 'A200.17',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA215(), 'de':KeyA216(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A215')), Carpet(CarpetText('A216'))]
     )
 
@@ -2652,7 +2652,7 @@ roomA217KI = Room(
 roomA200_18 = Room(
     'A200.18 - Corridor',
     'A200.17', 'A217LI', 'A218LI', 'A200.19',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA217(), 'de':KeyA218(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A217')), Carpet(CarpetText('A218'))]
     )
 
@@ -2739,7 +2739,7 @@ roomA219KI = Room(
 roomA200_20 = Room(
     'A200.20 - Corridor',
     'A200.19', 'A219LI', 'A220LI', 'A200.21',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA219(), 'de':KeyA220(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A219')), Carpet(CarpetText('A220'))]
     )
 
@@ -2832,7 +2832,7 @@ roomB201KI = Room(
 roomB200_01 = Room(
     'B200.01 - Corridor',
     None, 'B201LI', 'B202LI', 'B200.02',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB201(), 'de':KeyB202(), 'ds':None},
     [Plant(), Plant(), Window(), Carpet(CarpetText('B201')), Carpet(CarpetText('B202'))]
     )
 
@@ -2919,7 +2919,7 @@ roomB203KI = Room(
 roomB200_03 = Room(
     'B200.03 - Corridor',
     'B200.02', 'B203LI', 'B204LI', 'B200.04',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB203(), 'de':KeyB204(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B203')), Carpet(CarpetText('B204'))]
     )
 
@@ -3006,7 +3006,7 @@ roomB205KI = Room(
 roomB200_05 = Room(
     'B200.05 - Corridor',
     'B200.04', 'B205LI', 'B206LI', 'B200.06',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB205(), 'de':KeyB206(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B205')), Carpet(CarpetText('B206'))]
     )
 
@@ -3093,7 +3093,7 @@ roomB207KI = Room(
 roomB200_07 = Room(
     'B200.07 - Corridor',
     'B200.06', 'B207LI', 'B208LI', 'B200.08',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB207(), 'de':KeyB208(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B207')), Carpet(CarpetText('B208'))]
     )
 
@@ -3180,7 +3180,7 @@ roomB209KI = Room(
 roomB200_09 = Room(
     'B200.09 - Corridor',
     'B200.08', 'B209LI', 'B210LI', 'B200.10',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB209(), 'de':KeyB210(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B209')), Carpet(CarpetText('B210'))]
     )
 
@@ -3232,7 +3232,7 @@ roomB210KI = Room(
 roomB200_11 = Room(
     'B200.11 - Corridor',
     'B200.10', 'B200.11.1', 'B200SR', 'B200.12',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':None, 'de':KeySRB200(), 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -3300,7 +3300,7 @@ roomB211KI = Room(
 roomB200_12 = Room(
     'B200.12 - Corridor',
     'B200.11', 'B211LI', 'B212LI', 'B200.13',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB211(), 'de':KeyB212(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B211')), Carpet(CarpetText('B212'))]
     )
 
@@ -3387,7 +3387,7 @@ roomB213KI = Room(
 roomB200_14 = Room(
     'B200.14 - Corridor',
     'B200.13', 'B213LI', 'B214LI', 'B200.15',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB213(), 'de':KeyB214(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B213')), Carpet(CarpetText('B214'))]
     )
 
@@ -3474,7 +3474,7 @@ roomB215KI = Room(
 roomB200_16 = Room(
     'B200.16 - Corridor',
     'B200.15', 'B215LI', 'B216LI', 'B200.17',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB215(), 'de':KeyB216(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B215')), Carpet(CarpetText('B216'))]
     )
 
@@ -3561,7 +3561,7 @@ roomB217KI = Room(
 roomB200_18 = Room(
     'B200.18 - Corridor',
     'B200.17', 'B217LI', 'B218LI', 'B200.19',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB217(), 'de':KeyB218(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B217')), Carpet(CarpetText('B218'))]
     )
 
@@ -3648,7 +3648,7 @@ roomB219KI = Room(
 roomB200_20 = Room(
     'B200.20 - Corridor',
     'B200.19', 'B219LI', 'B220LI', 'B200.21',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB219(), 'de':KeyB220(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B219')), Carpet(CarpetText('B220'))]
     )
 
@@ -3777,7 +3777,7 @@ roomA301KI = Room(
 roomA300_01 = Room(
     'A300.01 - Corridor',
     None, 'A301LI', 'A302LI', 'A300.02',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA301(), 'de':KeyA302(), 'ds':None},
     [Plant(), Plant(), Window(), Carpet(CarpetText('A301')), Carpet(CarpetText('A302'))]
     )
 
@@ -3864,7 +3864,7 @@ roomA303KI = Room(
 roomA300_03 = Room(
     'A300.03 - Corridor',
     'A300.02', 'A303LI', 'A304LI', 'A300.04',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA303(), 'de':KeyA304(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A303')), Carpet(CarpetText('A304'))]
     )
 
@@ -3951,7 +3951,7 @@ roomA305KI = Room(
 roomA300_05 = Room(
     'A300.05 - Corridor',
     'A300.04', 'A305LI', 'A306LI', 'A300.06',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA305(), 'de':KeyA306(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A305')), Carpet(CarpetText('A306'))]
     )
 
@@ -4038,7 +4038,7 @@ roomA307KI = Room(
 roomA300_07 = Room(
     'A300.07 - Corridor',
     'A300.06', 'A307LI', 'A308LI', 'A300.08',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA307(), 'de':KeyA308(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A307')), Carpet(CarpetText('A308'))]
     )
 
@@ -4125,7 +4125,7 @@ roomA309KI = Room(
 roomA300_09 = Room(
     'A300.09 - Corridor',
     'A300.08', 'A309LI', 'A310LI', 'A300.10',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA309(), 'de':KeyA310(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A309')), Carpet(CarpetText('A310'))]
     )
 
@@ -4177,7 +4177,7 @@ roomA310KI = Room(
 roomA300_11 = Room(
     'A300.11 - Corridor',
     'A300.10', 'A300SR', 'A300.11.1', 'A300.12',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeySRA300(), 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -4245,7 +4245,7 @@ roomA311KI = Room(
 roomA300_12 = Room(
     'A300.12 - Corridor',
     'A300.11', 'A311LI', 'A312LI', 'A300.13',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA311(), 'de':KeyA312(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A311')), Carpet(CarpetText('A312'))]
     )
 
@@ -4332,7 +4332,7 @@ roomA313KI = Room(
 roomA300_14 = Room(
     'A300.14 - Corridor',
     'A300.13', 'A313LI', 'A314LI', 'A300.15',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA313(), 'de':KeyA314(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A313')), Carpet(CarpetText('A314'))]
     )
 
@@ -4419,7 +4419,7 @@ roomA315KI = Room(
 roomA300_16 = Room(
     'A300.16 - Corridor',
     'A300.15', 'A315LI', 'A316LI', 'A300.17',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA315(), 'de':KeyA316(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A315')), Carpet(CarpetText('A316'))]
     )
 
@@ -4506,7 +4506,7 @@ roomA317KI = Room(
 roomA300_18 = Room(
     'A300.18 - Corridor',
     'A300.17', 'A317LI', 'A318LI', 'A300.19',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA317(), 'de':KeyA318(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A317')), Carpet(CarpetText('A318'))]
     )
 
@@ -4593,7 +4593,7 @@ roomA319KI = Room(
 roomA300_20 = Room(
     'A300.20 - Corridor',
     'A300.19', 'A319LI', 'A320LI', 'A300.21',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyA319(), 'de':KeyA320(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('A319')), Carpet(CarpetText('A320'))]
     )
 
@@ -4686,7 +4686,7 @@ roomB301KI = Room(
 roomB300_01 = Room(
     'B300.01 - Corridor',
     None, 'B301LI', 'B302LI', 'B300.02',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB301(), 'de':KeyB302(), 'ds':None},
     [Plant(), Plant(), Window(), Carpet(CarpetText('B301')), Carpet(CarpetText('B302'))]
     )
 
@@ -4773,7 +4773,7 @@ roomB303KI = Room(
 roomB300_03 = Room(
     'B300.03 - Corridor',
     'B300.02', 'B303LI', 'B304LI', 'B300.04',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB303(), 'de':KeyB304(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B303')), Carpet(CarpetText('B304'))]
     )
 
@@ -4860,7 +4860,7 @@ roomB305KI = Room(
 roomB300_05 = Room(
     'B300.05 - Corridor',
     'B300.04', 'B305LI', 'B306LI', 'B300.06',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB305(), 'de':KeyB306(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B305')), Carpet(CarpetText('B306'))]
     )
 
@@ -4947,7 +4947,7 @@ roomB307KI = Room(
 roomB300_07 = Room(
     'B300.07 - Corridor',
     'B300.06', 'B307LI', 'B308LI', 'B300.08',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB307(), 'de':KeyB308(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B307')), Carpet(CarpetText('B308'))]
     )
 
@@ -5034,7 +5034,7 @@ roomB309KI = Room(
 roomB300_09 = Room(
     'B300.09 - Corridor',
     'B300.08', 'B309LI', 'B310LI', 'B300.10',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB309(), 'de':KeyB310(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B309')), Carpet(CarpetText('B310'))]
     )
 
@@ -5086,7 +5086,7 @@ roomB310KI = Room(
 roomB300_11 = Room(
     'B300.11 - Corridor',
     'B300.10', 'B300.11.1', 'B300SR', 'B300.12',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':None, 'de':KeySRB300(), 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
 
@@ -5154,7 +5154,7 @@ roomB311KI = Room(
 roomB300_12 = Room(
     'B300.12 - Corridor',
     'B300.11', 'B311LI', 'B312LI', 'B300.13',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB311(), 'de':KeyB312(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B311')), Carpet(CarpetText('B312'))]
     )
 
@@ -5241,7 +5241,7 @@ roomB313KI = Room(
 roomB300_14 = Room(
     'B300.14 - Corridor',
     'B300.13', 'B313LI', 'B314LI', 'B300.15',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB313(), 'de':KeyB314(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B313')), Carpet(CarpetText('B314'))]
     )
 
@@ -5328,7 +5328,7 @@ roomB315KI = Room(
 roomB300_16 = Room(
     'B300.16 - Corridor',
     'B300.15', 'B315LI', 'B316LI', 'B300.17',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB315(), 'de':KeyB316(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B315')), Carpet(CarpetText('B316'))]
     )
 
@@ -5415,7 +5415,7 @@ roomB317KI = Room(
 roomB300_18 = Room(
     'B300.18 - Corridor',
     'B300.17', 'B317LI', 'B318LI', 'B300.19',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB317(), 'de':KeyB318(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B317')), Carpet(CarpetText('B318'))]
     )
 
@@ -5502,7 +5502,7 @@ roomB319KI = Room(
 roomB300_20 = Room(
     'B300.20 - Corridor',
     'B300.19', 'B319LI', 'B320LI', 'B300.21',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeyB319(), 'de':KeyB320(), 'ds':None},
     [Plant(), Plant(), Carpet(CarpetText('B319')), Carpet(CarpetText('B320'))]
     )
 
@@ -5670,4 +5670,4 @@ rooms = {
 }
 
 room = roomA303LI
-#inventory = [KeyA303()]
+inventory = [KeyA303()]

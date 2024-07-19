@@ -160,6 +160,12 @@ class StorageShelf(Object):
     def __init__(self, item=None):
         super().__init__('Storage shelf', item, 2)
 
+class KeyHook(Object):
+    def __init__(self, item=None):
+        super().__init__('Key hook', item, 100)
+        if item != None:
+            self.name = 'Key hook: '+item.name
+
 # SECRET
 
 class Secret(Object):
