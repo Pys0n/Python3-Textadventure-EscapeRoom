@@ -584,7 +584,7 @@ if __name__ == '__main__':
                 print('\t2 - Easy')
                 print('\t3 - Normal')
                 print('\t4 - Hard')
-                print('\t5 - ???')
+                print('\t5 - Extreme')
                 print('\t0 - Back\n')
                 choice = input('Choose: ')
                 if choice == '1':
@@ -859,7 +859,7 @@ if __name__ == '__main__':
                                         times[float(line[0])].append(line[-1])
                                 file.close()
                             
-                            print('\t\t--- Ranking ??? ---')
+                            print('\t\t--- Ranking Extreme ---')
                             run = 0
                             key_list = []
                             for key in times.keys():

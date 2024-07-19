@@ -1829,30 +1829,50 @@ roomM100_1 = Room(
     'M100.1 - Corridor',
     None, 'A100.11.2', 'M100.2', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M119')), Carpet(CarpetText('M120'))]
+    [Plant(), Plant()]
     )
 
 roomM100_2 = Room(
     'M100.2 - Corridor',
-    None, 'M100.1', 'M100.3', 'Exit',
+    None, 'M100.1', 'M100.3', 'RM100',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M119')), Carpet(CarpetText('M120'))]
+    [Plant(), Plant()]
     )
 
 roomM100_3 = Room(
     'M100.3 - Corridor',
-    'M200.3', 'M100.2', 'M100.4', 'Exit',
+    'M200.3', 'M100.2', 'M100.4', 'RM100',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M119')), Carpet(CarpetText('M120'))]
+    [Plant(), Plant()]
     )
 
 roomM100_4 = Room(
     'M100.4 - Corridor',
     None, 'M100.3', 'B100.11.2', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant(), Carpet(CarpetText('M119')), Carpet(CarpetText('M120'))]
+    [Plant(), Plant()]
     )
 
+roomRM100 = Room(
+    'M100 - Reception',
+    'M100.2', 'KBM100.1', 'KBM100.2', 'Exit',
+    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    [Plant(), Plant()]
+    )
+
+roomKBM100_1 = Room(
+    'M100 - Key bearing 1',
+    None, None, 'RM100', None,
+    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    [Plant(), Plant()]
+    )
+
+roomKBM100_2 = Room(
+    'M100 - Key bearing 2',
+    None, 'RM100', None, None,
+    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    [Plant(), Plant()]
+    )
 
 ###########################################################################################################################################
 ###########################################################################################################################################
@@ -5590,6 +5610,7 @@ rooms = {
     'B100.20':roomB100_20, 'B100.21':roomB100_21, 'B119BA':roomB119BA, 'B119BE':roomB119BE, 'B119KI':roomB119KI, 'B119LI':roomB119LI, 'B120BA':roomB120BA, 'B120BE':roomB120BE, 'B120KI':roomB120KI, 'B120LI':roomB120LI, # B119 - B120
     # M
     'M100.1':roomM100_1, 'M100.2':roomM100_2, 'M100.3':roomM100_3, 'M100.4':roomM100_4,
+    'KBM100.1':roomKBM100_1, 'KBM100.2':roomKBM100_2, 'RM100':roomRM100,
 
     # Floor 2
     # A
