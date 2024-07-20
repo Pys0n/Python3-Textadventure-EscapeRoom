@@ -1863,8 +1863,8 @@ roomRM100 = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':KeyEntrence()},
     [Plant(), Plant(), Plant(), Plant(),
     Socket(), Painting(), Painting(), Painting(),
-    Painting(), PC(), Chair(), Rubbishbin(),
-    Bar(), 
+    Painting(), PC(Note('Can you pack a present for Maik with the spare entrence key, thanks.')), Chair(), Rubbishbin(),
+    Bar(Note('Would you like to come to my birthday party on August 3rd?\nI\'m celebrating in my room (A308).\n\n\t\t- Maik')), 
     KeyHook(KeySecurityDoorA100()), KeyHook(KeySecurityDoorA200()), KeyHook(),
     KeyHook(KeySecurityDoorB100()), KeyHook(KeySecurityDoorB200()), KeyHook(KeySecurityDoorB300())]
     )
@@ -1874,17 +1874,17 @@ roomKBM100_1 = Room(
     None, None, 'RM100', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [KeyHook(KeyA101()), KeyHook(KeyA102()), KeyHook(KeyA103()), KeyHook(KeyA104()), KeyHook(KeyA105()),
-     KeyHook(KeyA106()), KeyHook(KeyA107()), KeyHook(KeyA108()), KeyHook(KeyA108()), KeyHook(KeyA110()),
+     KeyHook(KeyA106()), KeyHook(KeyA107()), KeyHook(KeyA108()), KeyHook(KeyA109()), KeyHook(KeyA110()),
      KeyHook(KeyA111()), KeyHook(KeyA112()), KeyHook(KeyA113()), KeyHook(KeyA114()), KeyHook(KeyA115()),
-     KeyHook(KeyA116()), KeyHook(KeyA117()), KeyHook(KeyA118()), KeyHook(KeyA118()), KeyHook(KeyA120()),
+     KeyHook(KeyA116()), KeyHook(KeyA117()), KeyHook(KeyA118()), KeyHook(KeyA119()), KeyHook(KeyA120()),
      KeyHook(KeyA201()), KeyHook(KeyA202()), KeyHook(KeyA203()), KeyHook(KeyA204()), KeyHook(KeyA205()),
-     KeyHook(KeyA206()), KeyHook(KeyA207()), KeyHook(KeyA208()), KeyHook(KeyA208()), KeyHook(KeyA210()),
+     KeyHook(KeyA206()), KeyHook(KeyA207()), KeyHook(KeyA208()), KeyHook(KeyA209()), KeyHook(KeyA210()),
      KeyHook(KeyA211()), KeyHook(KeyA212()), KeyHook(KeyA213()), KeyHook(KeyA214()), KeyHook(KeyA215()),
-     KeyHook(KeyA216()), KeyHook(KeyA217()), KeyHook(KeyA218()), KeyHook(KeyA218()), KeyHook(KeyA220()),
+     KeyHook(KeyA216()), KeyHook(KeyA217()), KeyHook(KeyA218()), KeyHook(KeyA219()), KeyHook(KeyA220()),
      KeyHook(KeyA301()), KeyHook(KeyA302()), KeyHook(KeyA303()), KeyHook(KeyA304()), KeyHook(KeyA305()),
-     KeyHook(KeyA306()), KeyHook(KeyA307()), KeyHook(KeyA308()), KeyHook(KeyA308()), KeyHook(KeyA310()),
+     KeyHook(KeyA306()), KeyHook(KeyA307()), KeyHook(),          KeyHook(KeyA309()), KeyHook(KeyA310()),
      KeyHook(KeyA311()), KeyHook(KeyA312()), KeyHook(KeyA313()), KeyHook(KeyA314()), KeyHook(KeyA315()),
-     KeyHook(KeyA316()), KeyHook(KeyA317()), KeyHook(KeyA318()), KeyHook(KeyA318()), KeyHook(KeyA320())]
+     KeyHook(KeyA316()), KeyHook(KeyA317()), KeyHook(KeyA318()), KeyHook(KeyA319()), KeyHook(KeyA320())]
     )
 
 roomKBM100_2 = Room(
@@ -2935,10 +2935,22 @@ roomB203LI = Room(
                           I think 44.\n\n
 
                           Marc on August 2, 2024:\n
-                          Thanks, but now I go to bed, see you tomorrow at Maik\'s party, good night.\n\n
+                          He even gave me his spare key.\n\n
+
+                          You on August 2, 2024:\n
+                          Can you see him?\n\n
+
+                          Marc on August 2, 2024:\n
+                          Why I should able to see him?\n\n
+
+                          You on August 2, 2024:\n
+                          He lives just on the other side when you look out of the window!\n\n
+
+                          Marc on August 2, 2024:\n
+                          Opposite is the A306, he lives next to it. And no, I can\'t se him! Good Night.\n\n
                           
-                          You on August 2, 2024:
-                          \nGood Night.
+                          You on August 2, 2024:\n
+                          Good Night.
                           ''')),
      Armchair(), Armchair(),
      Painting(), Painting(), Plant(), Plant(),
@@ -4888,7 +4900,7 @@ roomB305LI = Room(
     None, 'B305BA', 'B300.05', 'B305KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Couch(), TV(), TVTable(), RemoteControl(),
-     CoffeeTable(), Armchair(), Armchair(), Painting(),
+     CoffeeTable(KeyA308()), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
 
