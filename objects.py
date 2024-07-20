@@ -166,6 +166,24 @@ class KeyHook(Object):
         if item != None:
             self.name = 'Key hook: '+item.name
 
+class PC(Object):
+    def __init__(self, item=None):
+        super().__init__('PC', item, 5)
+
+class Birthdaycake(Object):
+    def __init__(self, item=None):
+        super().__init__('Birthday cake', item, 5)
+
+class Bar(Object):
+    def __init__(self, item=None):
+        super().__init__('Bar', item, 2)
+
+class Gift(Object):
+    def __init__(self, item=None, name=None):
+        super().__init__('Gift', item, 5)
+        if name != None:
+            self.name = 'Gift from '+name
+
 # SECRET
 
 class Secret(Object):

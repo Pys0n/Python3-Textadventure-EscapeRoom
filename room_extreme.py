@@ -55,7 +55,7 @@ roomA100_01 = Room(
 
 roomA100_02 = Room(
     'A100.02 - Corridor',
-    'A100.01', None, None, None,
+    'A100.01', None, None, 'A100.03',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
@@ -964,7 +964,7 @@ roomB100_01 = Room(
 
 roomB100_02 = Room(
     'B100.02 - Corridor',
-    'B100.01', None, None, None,
+    'B100.01', None, None, 'B100.03',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
@@ -1828,7 +1828,7 @@ roomB120KI = Room(
 roomM100_1 = Room(
     'M100.1 - Corridor',
     None, 'A100.11.2', 'M100.2', None,
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeySecurityDoorA100(), 'de':None, 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
     Socket(), Painting()]
     )
@@ -1852,7 +1852,7 @@ roomM100_3 = Room(
 roomM100_4 = Room(
     'M100.4 - Corridor',
     None, 'M100.3', 'B100.11.2', None,
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':None, 'de':KeySecurityDoorB100(), 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
     Socket(), Painting()]
     )
@@ -1860,10 +1860,11 @@ roomM100_4 = Room(
 roomRM100 = Room(
     'M100 - Reception',
     'M100.2', 'KBM100.1', 'KBM100.2', 'Exit',
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':None, 'de':None, 'ds':KeyEntrence()},
     [Plant(), Plant(), Plant(), Plant(),
     Socket(), Painting(), Painting(), Painting(),
-    Painting(),
+    Painting(), PC(), Chair(), Rubbishbin(),
+    Bar(), 
     KeyHook(KeySecurityDoorA100()), KeyHook(KeySecurityDoorA200()), KeyHook(),
     KeyHook(KeySecurityDoorB100()), KeyHook(KeySecurityDoorB200()), KeyHook(KeySecurityDoorB300())]
     )
@@ -1959,7 +1960,7 @@ roomA200_01 = Room(
 
 roomA200_02 = Room(
     'A200.02 - Corridor',
-    'A200.01', None, None, None,
+    'A200.01', None, None, 'A200.03',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
@@ -2868,7 +2869,7 @@ roomB200_01 = Room(
 
 roomB200_02 = Room(
     'B200.02 - Corridor',
-    'B200.01', None, None, None,
+    'B200.01', None, None, 'B200.03',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
@@ -2915,8 +2916,33 @@ roomB203LI = Room(
     None, 'B203BA', 'B200.03', 'B203KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Couch(), TV(), TVTable(), RemoteControl(),
-     CoffeeTable(), Armchair(), Armchair(), Painting(),
-     Painting(), Plant(), Plant(), Socket()]
+     CoffeeTable(),
+     Mobile(MobileMessage('''
+                          You on August 2, 2024:\n
+                          Hi Marc, were you also invited to Maiks\'s birthday party?\n\n
+                          
+                          Marc on August 2, 2024:\n
+                          Hi Peter, yes I was.\n\n
+                          
+                          You on August 2, 2024:\n
+                          Maik is the hotel\'s IT specialist, right?\n\n
+                          
+                          Marc on August 2, 2024:\n
+                          Yes.\n
+                          How old will he be tomorrow?\n\n
+
+                          You on August 2, 2024:\n
+                          I think 44.\n\n
+
+                          Marc on August 2, 2024:\n
+                          Thanks, but now I go to bed, see you tomorrow at Maik\'s party, good night.\n\n
+                          
+                          You on August 2, 2024:
+                          \nGood Night.
+                          ''')),
+     Armchair(), Armchair(),
+     Painting(), Painting(), Plant(), Plant(),
+     Socket()]
     )
 
 roomB203BE = Room(
@@ -3732,7 +3758,7 @@ roomB220KI = Room(
 roomM200_1 = Room(
     'M200.1 - Corridor',
     None, 'A200.11.2', 'M200.2', None,
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeySecurityDoorA200(), 'de':None, 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
     Socket(), Painting()]
     )
@@ -3756,7 +3782,7 @@ roomM200_3 = Room(
 roomM200_4 = Room(
     'M200.4 - Corridor',
     None, 'M200.3', 'B200.11.2', None,
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':None, 'de':KeySecurityDoorB200(), 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
     Socket(), Painting()]
     )
@@ -3817,7 +3843,7 @@ roomA300_01 = Room(
 
 roomA300_02 = Room(
     'A300.02 - Corridor',
-    'A300.01', None, None, None,
+    'A300.01', None, None, 'A300.03',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
@@ -4116,7 +4142,9 @@ roomA308KI = Room(
     [Fridge(), Stove(), Oven(), KitchenCupboard(),
      KitchenCupboard(), KitchenCupboard(), Table(), Chair(),
      Chair(), Chair(), Chair(), Chair(),
-     Chair(), Plant(), Plant(), Socket()]
+     Chair(), Plant(), Plant(), Socket(),
+     Birthdaycake(), Gift(), Gift(name='Peter'), Gift(name='Anja'),
+     Gift(name='Marc'), Gift(KeyEntrence(), 'Reception-Team'), Gift()]
     )
 
 ############################################################### A309 - A310 ###############################################################
@@ -4726,7 +4754,7 @@ roomB300_01 = Room(
 
 roomB300_02 = Room(
     'B300.02 - Corridor',
-    'B300.01', None, None, None,
+    'B300.01', None, None, 'B300.03',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Plant(), Plant(), Painting(), Painting()]
     )
@@ -5590,7 +5618,7 @@ roomB320KI = Room(
 roomM300_1 = Room(
     'M300.1 - Corridor',
     None, 'A300.11.2', 'M300.2', None,
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':KeySecurityDoorA300(), 'de':None, 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
     Socket(), Painting()]
     )
@@ -5614,7 +5642,7 @@ roomM300_3 = Room(
 roomM300_4 = Room(
     'M300.4 - Corridor',
     None, 'M300.3', 'B300.11.2', None,
-    {'dn':None, 'dw':None, 'de':None, 'ds':None},
+    {'dn':None, 'dw':None, 'de':KeySecurityDoorB300(), 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
     Socket(), Painting()]
     )
