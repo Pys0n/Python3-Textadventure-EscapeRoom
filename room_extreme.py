@@ -2938,7 +2938,7 @@ roomB203LI = Room(
                           He even gave me his spare key.\n\n
 
                           You on August 2, 2024:\n
-                          Can you see him?\n\n
+                          Wow, can you see him?\n\n
 
                           Marc on August 2, 2024:\n
                           Why I should able to see him?\n\n
