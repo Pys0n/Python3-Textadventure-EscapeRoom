@@ -1863,8 +1863,8 @@ roomRM100 = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':KeyEntrence()},
     [Plant(), Plant(), Plant(), Plant(),
     Socket(), Painting(), Painting(), Painting(),
-    Painting(), PC(Note('Can you pack a present for Maik with the spare entrence key, thanks.')), Chair(), Rubbishbin(),
-    Bar(Note('Would you like to come to my birthday party on August 3rd?\nI\'m celebrating in my room (A308).\n\n\t\t- Maik')), 
+    Painting(), PC(Note('Can you pack a present for Maik with the spare entrence key, thanks.\n\n(If you want to know more about the party you should go to Peter (B203) or Marc (B305))')), Chair(), Rubbishbin(),
+    Bar(Note('Would you like to come to my birthday party on August 3rd?\nPlease let me know by tomorrow.\n\n\t\t- Maik')), 
     KeyHook(KeySecurityDoorA100()), KeyHook(KeySecurityDoorA200()), KeyHook(),
     KeyHook(KeySecurityDoorB100()), KeyHook(KeySecurityDoorB200()), KeyHook(KeySecurityDoorB300())]
     )
@@ -1874,17 +1874,17 @@ roomKBM100_1 = Room(
     None, None, 'RM100', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [KeyHook(KeyA101()), KeyHook(KeyA102()), KeyHook(KeyA103()), KeyHook(KeyA104()), KeyHook(KeyA105()),
-     KeyHook(KeyA106()), KeyHook(KeyA107()), KeyHook(KeyA108()), KeyHook(KeyA109()), KeyHook(KeyA110()),
+     KeyHook(),          KeyHook(KeyA107()), KeyHook(KeyA108()), KeyHook(KeyA109()), KeyHook(KeyA110()),
      KeyHook(KeyA111()), KeyHook(KeyA112()), KeyHook(KeyA113()), KeyHook(KeyA114()), KeyHook(KeyA115()),
-     KeyHook(KeyA116()), KeyHook(KeyA117()), KeyHook(KeyA118()), KeyHook(KeyA119()), KeyHook(KeyA120()),
+     KeyHook(KeyA116()), KeyHook(KeyA117()), KeyHook(KeyA118()), KeyHook(),          KeyHook(KeyA120()),
      KeyHook(KeyA201()), KeyHook(KeyA202()), KeyHook(KeyA203()), KeyHook(KeyA204()), KeyHook(KeyA205()),
-     KeyHook(KeyA206()), KeyHook(KeyA207()), KeyHook(KeyA208()), KeyHook(KeyA209()), KeyHook(KeyA210()),
+     KeyHook(KeyA206()), KeyHook(),          KeyHook(KeyA208()), KeyHook(KeyA209()), KeyHook(KeyA210()),
      KeyHook(KeyA211()), KeyHook(KeyA212()), KeyHook(KeyA213()), KeyHook(KeyA214()), KeyHook(KeyA215()),
      KeyHook(KeyA216()), KeyHook(KeyA217()), KeyHook(KeyA218()), KeyHook(KeyA219()), KeyHook(KeyA220()),
-     KeyHook(KeyA301()), KeyHook(KeyA302()), KeyHook(KeyA303()), KeyHook(KeyA304()), KeyHook(KeyA305()),
-     KeyHook(KeyA306()), KeyHook(KeyA307()), KeyHook(),          KeyHook(KeyA309()), KeyHook(KeyA310()),
+     KeyHook(KeyA301()), KeyHook(KeyA302()), KeyHook(),          KeyHook(KeyA304()), KeyHook(KeyA305()),
+     KeyHook(),          KeyHook(KeyA307()), KeyHook(),          KeyHook(KeyA309()), KeyHook(KeyA310()),
      KeyHook(KeyA311()), KeyHook(KeyA312()), KeyHook(KeyA313()), KeyHook(KeyA314()), KeyHook(KeyA315()),
-     KeyHook(KeyA316()), KeyHook(KeyA317()), KeyHook(KeyA318()), KeyHook(KeyA319()), KeyHook(KeyA320())]
+     KeyHook(KeyA316()), KeyHook(KeyA317()), KeyHook(),          KeyHook(KeyA319()), KeyHook(KeyA320())]
     )
 
 roomKBM100_2 = Room(
@@ -1893,16 +1893,16 @@ roomKBM100_2 = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [KeyHook(KeyB101()), KeyHook(KeyB102()), KeyHook(KeyB103()), KeyHook(KeyB104()), KeyHook(KeyB105()),
      KeyHook(KeyB106()), KeyHook(KeyB107()), KeyHook(KeyB108()), KeyHook(KeyB108()), KeyHook(KeyB110()),
-     KeyHook(KeyB111()), KeyHook(KeyB112()), KeyHook(KeyB113()), KeyHook(KeyB114()), KeyHook(KeyB115()),
+     KeyHook(KeyB111()), KeyHook(),          KeyHook(KeyB113()), KeyHook(KeyB114()), KeyHook(KeyB115()),
      KeyHook(KeyB116()), KeyHook(KeyB117()), KeyHook(KeyB118()), KeyHook(KeyB118()), KeyHook(KeyB120()),
-     KeyHook(KeyB201()), KeyHook(KeyB202()), KeyHook(KeyB203()), KeyHook(KeyB204()), KeyHook(KeyB205()),
+     KeyHook(KeyB201()), KeyHook(KeyB202()), KeyHook(KeyB203()), KeyHook(),          KeyHook(KeyB205()),
      KeyHook(KeyB206()), KeyHook(KeyB207()), KeyHook(KeyB208()), KeyHook(KeyB208()), KeyHook(KeyB210()),
      KeyHook(KeyB211()), KeyHook(KeyB212()), KeyHook(KeyB213()), KeyHook(KeyB214()), KeyHook(KeyB215()),
      KeyHook(KeyB216()), KeyHook(KeyB217()), KeyHook(KeyB218()), KeyHook(KeyB218()), KeyHook(KeyB220()),
-     KeyHook(KeyB301()), KeyHook(KeyB302()), KeyHook(KeyB303()), KeyHook(KeyB304()), KeyHook(KeyB305()),
+     KeyHook(),          KeyHook(KeyB302()), KeyHook(KeyB303()), KeyHook(KeyB304()), KeyHook(KeyB305()),
      KeyHook(KeyB306()), KeyHook(KeyB307()), KeyHook(KeyB308()), KeyHook(KeyB308()), KeyHook(KeyB310()),
      KeyHook(KeyB311()), KeyHook(KeyB312()), KeyHook(KeyB313()), KeyHook(KeyB314()), KeyHook(KeyB315()),
-     KeyHook(KeyB316()), KeyHook(KeyB317()), KeyHook(KeyB318()), KeyHook(KeyB318()), KeyHook(KeyB320())]
+     KeyHook(KeyB316()), KeyHook(KeyB317()), KeyHook(KeyB318()), KeyHook(KeyB318()), KeyHook()]
     )
 
 ###########################################################################################################################################
@@ -3903,7 +3903,14 @@ roomA303LI = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Couch(), TV(), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
-     Painting(), Plant(), Plant(), Socket()]
+     Painting(), Plant(), Plant(), Socket(),
+     Mobile(MobileMessage('''
+                          The key for the storage room is under a plant at A300.11.\n
+                          In the storage room you will find the key for the security\n
+                          door on your floor, can you please hand it in at the reception,\n
+                          as you know, at A300.11 go right to M300.02 and the take the\n
+                          stairs to M100.02 and then go down to the reception, thanky you.
+                          '''))]
     )
 
 roomA303BE = Room(
