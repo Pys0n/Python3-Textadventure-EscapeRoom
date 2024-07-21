@@ -561,3 +561,7 @@ class KeySecurityDoorA300(Item):
 class KeySecurityDoorB300(Item):
     def __init__(self):
         super().__init__('Security-Door-B300-Key')
+
+class CellarKey(Item):
+    def __init__(self):
+        super().__init__('Cellar-Key')

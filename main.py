@@ -24,6 +24,15 @@ def main():
     while escape:
         eval('system("'+clear+'")')
 
+        if extreme and (600 - (time() - start_time)) <= 0 and room != 'Cellar':
+            print('The Twister reaches the hotel, you have died...\n\n')
+            input('Continue...')
+            break
+            
+        if extreme and room == 'Cellar':
+            time_up = True
+            print('The Twister is over, now escape!')
+
         print('You are in the room', room.name,'\n')
         if room.dn: print('W - Up'           if room.n_information == None else 'W - Up ['+room.n_information+']')
         elif room.n_information != None: print('W - ['+room.n_information+']')
@@ -530,7 +539,7 @@ def main():
                             print(room.interactions[index].item.text)
                             input('\nContinue...')
                         elif room.interactions[index].item.name == 'Breaking News':
-                            room.interactions[index].item.reloadText(f'The twister reaches the hotel in {str(round(600 - (time() - start_time)))} seconds.')
+                            room.interactions[index].item.reloadText('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.\nThe only safe place is the cellar.')
                             print('Breaking News:\n')
                             print(room.interactions[index].item.text)
                             input('\nContinue...')
@@ -862,7 +871,7 @@ if __name__ == '__main__':
                             win = main()
                             end_time=time()-start_time
                             eval('system("'+clear+'")')
-                            if win:
+                            if win and time_up:
                                 print('You have escaped!\n')
                                 print('Time required:', str(round(end_time,2))+'s')
                                 jn = input('If this time is to be saved (y/n)? ') 
@@ -872,6 +881,9 @@ if __name__ == '__main__':
                                     with open(str(PATH)+'/extreme_data.txt', 'a', encoding='utf-8') as file:
                                         file.write(str(round(end_time,2))+'|'+name+'\n')
                                         file.close()
+                            else:
+                                print('The Twister reached you, you have died...\n\n')
+                                input('Continue...')
                         if room_choice == '2':
                             eval('system("'+clear+'")')
                             times:dict = {}
