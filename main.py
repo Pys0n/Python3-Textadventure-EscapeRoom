@@ -16,22 +16,39 @@ if os == 'Linux':
 elif os == 'Windows':
     clear = 'cls'
 
+time_up = False
 
 def main():
-    global escape, room, secrets, secret_data, lvl, extreme
+    global escape, room, secrets, secret_data, lvl, extreme, time_up
     if extreme:
         from timer_extreme import start_time
     while escape:
         eval('system("'+clear+'")')
 
-        if extreme and (600 - (time() - start_time)) <= 0 and room != 'Cellar':
+        if extreme and (1200 - (time() - start_time)) <= 0 and room != 'Cellar' and not time_up:
             print('The Twister reaches the hotel, you have died...\n\n')
             input('Continue...')
             break
             
-        if extreme and room == 'Cellar':
+        if extreme and room.name == 'Cellar' and not time_up:
             time_up = True
+            roomRM100.s_information = 'Exit destroyed'
+            roomRM100.rs = None
+            roomRM100.closedDoors['ds'] = None
+            
+            roomA117BE.w_information='Exit through the window'
+            roomA117BE.rw='Exit'
+
+            print('You reached the cellar.')
+            input('\nContinue...')
+
+            eval('system("'+clear+'")')
+
+            print(round(1200 - (time() - start_time)+100), 'seconds later...\n')
             print('The Twister is over, now escape!')
+            input('\nContinue...')
+
+            eval('system("'+clear+'")')
 
         print('You are in the room', room.name,'\n')
         if room.dn: print('W - Up'           if room.n_information == None else 'W - Up ['+room.n_information+']')
@@ -539,9 +556,11 @@ def main():
                             print(room.interactions[index].item.text)
                             input('\nContinue...')
                         elif room.interactions[index].item.name == 'Breaking News':
-                            room.interactions[index].item.reloadText('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.\nThe only safe place is the cellar.')
                             print('Breaking News:\n')
-                            print(room.interactions[index].item.text)
+                            if extreme and not time_up:
+                                print('The twister reaches the hotel in '+str(round(1200 - (time() - start_time)))+' seconds.\nThe only safe place is the cellar.')
+                            elif extreme and time_up:
+                                print('The twister is over. The damage is minimal, the entrance is destroyed and a window in A-block floor 1 is broken.')
                             input('\nContinue...')
                         elif room.interactions[index].name == 'SECRET':
                             print('You have found a secret:\n')

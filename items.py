@@ -55,12 +55,8 @@ class CarpetText(Item):
         self.text = text
 
 class BreakingNews(Item):
-    def __init__(self, text):
+    def __init__(self):
         super().__init__('Breaking News')
-        self.text = text
-    
-    def reloadText(self, text):
-        self.text = text
 
 # SECRET
 
