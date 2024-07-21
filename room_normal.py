@@ -24,7 +24,7 @@ roomA2 = Room(
 roomA3 = Room(
     'A3', 'Exit', None, None, 'B3',
     {'dn':WhiteKeycard(), 'dw':None, 'de':None, 'ds':None},
-    [Plant(), Plant()]
+    [Plant(), Plant()], n_info='Exit'
     )
 
 roomA4 = Room(

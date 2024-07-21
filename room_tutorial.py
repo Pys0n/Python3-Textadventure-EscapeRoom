@@ -14,7 +14,7 @@ roomA1 = Room(
 roomA2 = Room(
     'A2', None, 'A1', 'Exit', 'B2',
     {'dn':None, 'dw':None, 'de':GreenKey(), 'ds':None},
-    [Plant(), Plant(), Book()]
+    [Plant(), Plant(), Book()], e_info='Exit'
     )
 
 roomB1 = Room(

@@ -1838,7 +1838,7 @@ roomM100_2 = Room(
     None, 'M100.1', 'M100.3', 'RM100',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
-    Socket(), Painting()]
+    Socket(), Painting()], n_info='downstairs'
     )
 
 roomM100_3 = Room(
@@ -1846,7 +1846,7 @@ roomM100_3 = Room(
     'M200.3', 'M100.2', 'M100.4', 'RM100',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
-    Socket(), Painting()]
+    Socket(), Painting()], n_info='upstairs'
     )
 
 roomM100_4 = Room(
@@ -1866,7 +1866,7 @@ roomRM100 = Room(
     Painting(), PC(Note('Can you pack a present for Maik with the spare entrence key, thanks.\n\n(If you want to know more about the party you should go to Peter (B203) or Marc (B305))')), Chair(), Rubbishbin(),
     Bar(Note('Would you like to come to my birthday party on August 3rd?\nPlease let me know by tomorrow.\n\n\t\t- Maik')), 
     KeyHook(KeySecurityDoorA100()), KeyHook(KeySecurityDoorA200()), KeyHook(),
-    KeyHook(KeySecurityDoorB100()), KeyHook(KeySecurityDoorB200()), KeyHook(KeySecurityDoorB300())]
+    KeyHook(KeySecurityDoorB100()), KeyHook(KeySecurityDoorB200()), KeyHook(KeySecurityDoorB300())], s_info='Exit'
     )
 
 roomKBM100_1 = Room(
@@ -3780,7 +3780,7 @@ roomM200_2 = Room(
     'M100.2', 'M200.1', 'M200.3', None,
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
-    Socket(), Painting()]
+    Socket(), Painting()], n_info='downstairs'
     )
 
 roomM200_3 = Room(

@@ -354,7 +354,7 @@ roomG7 = Room(
     'G7', 'F7', None, None, 'Exit',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(GoldenKey()), Plant(), Plant(), Plant(),
-     Plant(), Socket()]
+     Plant(), Socket()], s_info='Exit'
     )
 
 rooms = {

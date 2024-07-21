@@ -42,7 +42,7 @@ roomB3 = Room(
     'B3', 'A3', 'B2', 'Exit', None,
     {'dn':None, 'dw':None, 'de':GoldenKey(), 'ds':None},
     [Plant(), Plant(), Socket(), Painting(),
-        Painting()]
+        Painting()], e_info='Exit'
     )
 
 roomC1 = Room(
