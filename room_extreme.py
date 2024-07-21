@@ -25,7 +25,7 @@ roomA101BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA101BA = Room(
@@ -75,7 +75,7 @@ roomA102BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA102BA = Room(
@@ -112,7 +112,7 @@ roomA103BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA103BA = Room(
@@ -162,7 +162,7 @@ roomA104BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA104BA = Room(
@@ -199,7 +199,7 @@ roomA105BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA105BA = Room(
@@ -249,7 +249,7 @@ roomA106BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA106BA = Room(
@@ -286,7 +286,7 @@ roomA107BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA107BA = Room(
@@ -336,7 +336,7 @@ roomA108BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA108BA = Room(
@@ -373,7 +373,7 @@ roomA109BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA109BA = Room(
@@ -423,7 +423,7 @@ roomA110BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA110BA = Room(
@@ -493,7 +493,7 @@ roomA111BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA111BA = Room(
@@ -543,7 +543,7 @@ roomA112BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA112BA = Room(
@@ -580,7 +580,7 @@ roomA113BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA113BA = Room(
@@ -630,7 +630,7 @@ roomA114BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA114BA = Room(
@@ -667,7 +667,7 @@ roomA115BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA115BA = Room(
@@ -717,7 +717,7 @@ roomA116BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA116BA = Room(
@@ -754,7 +754,7 @@ roomA117BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA117BA = Room(
@@ -804,7 +804,7 @@ roomA118BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA118BA = Room(
@@ -841,7 +841,7 @@ roomA119BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA119BA = Room(
@@ -891,7 +891,7 @@ roomA120BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA120BA = Room(
@@ -934,7 +934,7 @@ roomB101BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB101BA = Room(
@@ -984,7 +984,7 @@ roomB102BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB102BA = Room(
@@ -1021,7 +1021,7 @@ roomB103BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB103BA = Room(
@@ -1071,7 +1071,7 @@ roomB104BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB104BA = Room(
@@ -1108,7 +1108,7 @@ roomB105BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB105BA = Room(
@@ -1158,7 +1158,7 @@ roomB106BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB106BA = Room(
@@ -1195,7 +1195,7 @@ roomB107BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB107BA = Room(
@@ -1245,7 +1245,7 @@ roomB108BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB108BA = Room(
@@ -1282,7 +1282,7 @@ roomB109BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB109BA = Room(
@@ -1332,7 +1332,7 @@ roomB110BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB110BA = Room(
@@ -1402,7 +1402,7 @@ roomB111BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB111BA = Room(
@@ -1452,7 +1452,7 @@ roomB112BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB112BA = Room(
@@ -1489,7 +1489,7 @@ roomB113BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB113BA = Room(
@@ -1539,7 +1539,7 @@ roomB114BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB114BA = Room(
@@ -1576,7 +1576,7 @@ roomB115BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB115BA = Room(
@@ -1626,7 +1626,7 @@ roomB116BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB116BA = Room(
@@ -1663,7 +1663,7 @@ roomB117BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB117BA = Room(
@@ -1713,7 +1713,7 @@ roomB118BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB118BA = Room(
@@ -1750,7 +1750,7 @@ roomB119BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB119BA = Room(
@@ -1800,7 +1800,7 @@ roomB120BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB120BA = Room(
@@ -1930,7 +1930,7 @@ roomA201BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA201BA = Room(
@@ -1980,7 +1980,7 @@ roomA202BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA202BA = Room(
@@ -2017,7 +2017,7 @@ roomA203BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA203BA = Room(
@@ -2067,7 +2067,7 @@ roomA204BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA204BA = Room(
@@ -2104,7 +2104,7 @@ roomA205BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA205BA = Room(
@@ -2154,7 +2154,7 @@ roomA206BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA206BA = Room(
@@ -2191,7 +2191,7 @@ roomA207BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA207BA = Room(
@@ -2241,7 +2241,7 @@ roomA208BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA208BA = Room(
@@ -2278,7 +2278,7 @@ roomA209BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA209BA = Room(
@@ -2328,7 +2328,7 @@ roomA210BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA210BA = Room(
@@ -2398,7 +2398,7 @@ roomA211BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA211BA = Room(
@@ -2448,7 +2448,7 @@ roomA212BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA212BA = Room(
@@ -2485,7 +2485,7 @@ roomA213BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA213BA = Room(
@@ -2535,7 +2535,7 @@ roomA214BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA214BA = Room(
@@ -2572,7 +2572,7 @@ roomA215BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA215BA = Room(
@@ -2622,7 +2622,7 @@ roomA216BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA216BA = Room(
@@ -2659,7 +2659,7 @@ roomA217BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA217BA = Room(
@@ -2709,7 +2709,7 @@ roomA218BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA218BA = Room(
@@ -2746,7 +2746,7 @@ roomA219BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA219BA = Room(
@@ -2796,7 +2796,7 @@ roomA220BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA220BA = Room(
@@ -2839,7 +2839,7 @@ roomB201BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB201BA = Room(
@@ -2889,7 +2889,7 @@ roomB202BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB202BA = Room(
@@ -2963,7 +2963,7 @@ roomB203BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB203BA = Room(
@@ -3013,7 +3013,7 @@ roomB204BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB204BA = Room(
@@ -3050,7 +3050,7 @@ roomB205BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB205BA = Room(
@@ -3100,7 +3100,7 @@ roomB206BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB206BA = Room(
@@ -3137,7 +3137,7 @@ roomB207BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB207BA = Room(
@@ -3187,7 +3187,7 @@ roomB208BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB208BA = Room(
@@ -3224,7 +3224,7 @@ roomB209BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB209BA = Room(
@@ -3274,7 +3274,7 @@ roomB210BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB210BA = Room(
@@ -3344,7 +3344,7 @@ roomB211BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB211BA = Room(
@@ -3394,7 +3394,7 @@ roomB212BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB212BA = Room(
@@ -3431,7 +3431,7 @@ roomB213BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB213BA = Room(
@@ -3481,7 +3481,7 @@ roomB214BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB214BA = Room(
@@ -3518,7 +3518,7 @@ roomB215BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB215BA = Room(
@@ -3568,7 +3568,7 @@ roomB216BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB216BA = Room(
@@ -3605,7 +3605,7 @@ roomB217BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB217BA = Room(
@@ -3655,7 +3655,7 @@ roomB218BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB218BA = Room(
@@ -3692,7 +3692,7 @@ roomB219BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB219BA = Room(
@@ -3742,7 +3742,7 @@ roomB220BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB220BA = Room(
@@ -3825,7 +3825,7 @@ roomA301BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA301BA = Room(
@@ -3875,7 +3875,7 @@ roomA302BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA302BA = Room(
@@ -3919,7 +3919,7 @@ roomA303BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA303BA = Room(
@@ -3969,7 +3969,7 @@ roomA304BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA304BA = Room(
@@ -4006,7 +4006,7 @@ roomA305BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA305BA = Room(
@@ -4056,7 +4056,7 @@ roomA306BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA306BA = Room(
@@ -4093,7 +4093,7 @@ roomA307BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA307BA = Room(
@@ -4143,7 +4143,7 @@ roomA308BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA308BA = Room(
@@ -4182,7 +4182,7 @@ roomA309BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA309BA = Room(
@@ -4232,7 +4232,7 @@ roomA310BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA310BA = Room(
@@ -4302,7 +4302,7 @@ roomA311BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA311BA = Room(
@@ -4352,7 +4352,7 @@ roomA312BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA312BA = Room(
@@ -4389,7 +4389,7 @@ roomA313BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA313BA = Room(
@@ -4439,7 +4439,7 @@ roomA314BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA314BA = Room(
@@ -4476,7 +4476,7 @@ roomA315BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA315BA = Room(
@@ -4526,7 +4526,7 @@ roomA316BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA316BA = Room(
@@ -4563,7 +4563,7 @@ roomA317BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA317BA = Room(
@@ -4613,7 +4613,7 @@ roomA318BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA318BA = Room(
@@ -4650,7 +4650,7 @@ roomA319BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA319BA = Room(
@@ -4700,7 +4700,7 @@ roomA320BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomA320BA = Room(
@@ -4743,7 +4743,7 @@ roomB301BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB301BA = Room(
@@ -4793,7 +4793,7 @@ roomB302BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB302BA = Room(
@@ -4830,7 +4830,7 @@ roomB303BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB303BA = Room(
@@ -4880,7 +4880,7 @@ roomB304BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB304BA = Room(
@@ -4917,7 +4917,7 @@ roomB305BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB305BA = Room(
@@ -4967,7 +4967,7 @@ roomB306BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB306BA = Room(
@@ -5004,7 +5004,7 @@ roomB307BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB307BA = Room(
@@ -5054,7 +5054,7 @@ roomB308BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB308BA = Room(
@@ -5091,7 +5091,7 @@ roomB309BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB309BA = Room(
@@ -5141,7 +5141,7 @@ roomB310BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB310BA = Room(
@@ -5211,7 +5211,7 @@ roomB311BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB311BA = Room(
@@ -5261,7 +5261,7 @@ roomB312BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB312BA = Room(
@@ -5298,7 +5298,7 @@ roomB313BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB313BA = Room(
@@ -5348,7 +5348,7 @@ roomB314BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB314BA = Room(
@@ -5385,7 +5385,7 @@ roomB315BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB315BA = Room(
@@ -5435,7 +5435,7 @@ roomB316BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB316BA = Room(
@@ -5472,7 +5472,7 @@ roomB317BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB317BA = Room(
@@ -5522,7 +5522,7 @@ roomB318BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB318BA = Room(
@@ -5559,7 +5559,7 @@ roomB319BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB319BA = Room(
@@ -5609,7 +5609,7 @@ roomB320BE = Room(
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
     [Window(), Bed(), Bed(), BedsideTable(),
      BedsideTable(), Table(), Chair(), Chair(),
-     Plant(), Plant(), Socket(), Socket()]
+     Plant(), Plant(), Socket(), Socket()], 
     )
 
 roomB320BA = Room(

@@ -24,9 +24,13 @@ def main():
 
         print('You are in the room', room.name,'\n')
         if room.dn: print('W - Up'           if room.n_information == None else 'W - Up ['+room.n_information+']')
+        elif room.n_information != None: print('W - ['+room.n_information+']')
         if room.dw: print('A - To the left'  if room.w_information == None else 'A - To the left ['+room.w_information+']')
+        elif room.w_information != None: print('A - ['+room.w_information+']')
         if room.ds: print('S - Down'         if room.s_information == None else 'S - Down ['+room.s_information+']')
+        elif room.s_information != None: print('S - ['+room.s_information+']')
         if room.de: print('D - To the right' if room.e_information == None else 'D - To the right ['+room.e_information+']')
+        elif room.e_information != None: print('D - ['+room.e_information+']')
         print('\nI - inspect')
         print('0 - leave')
         choice = input('\nChoose: ')
