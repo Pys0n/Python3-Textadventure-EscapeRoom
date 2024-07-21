@@ -4,6 +4,7 @@ from items import *
 from room import *
 
 from keys_extreme import *
+from timer_extreme import *
 
 ###########################################################################################################################################
 ###############################################################    A100    ################################################################
@@ -14,7 +15,7 @@ roomA101LI = Room(
     'A101 - Living room',
     None, 'A101BA', 'A100.01', 'A101KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -64,7 +65,7 @@ roomA102LI = Room(
     'A102 - Living room',
     None, 'A100.01', 'A102BA', 'A102KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -101,7 +102,7 @@ roomA103LI = Room(
     'A103 - Living room',
     None, 'A103BA', 'A100.03', 'A103KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -151,7 +152,7 @@ roomA104LI = Room(
     'A104 - Living room',
     None, 'A100.03', 'A104BA', 'A104KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -188,7 +189,7 @@ roomA105LI = Room(
     'A105 - Living room',
     None, 'A105BA', 'A100.05', 'A105KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -238,7 +239,7 @@ roomA106LI = Room(
     'A106 - Living room',
     None, 'A100.05', 'A106BA', 'A106KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -275,7 +276,7 @@ roomA107LI = Room(
     'A107 - Living room',
     None, 'A107BA', 'A100.07', 'A107KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -325,7 +326,7 @@ roomA108LI = Room(
     'A108 - Living room',
     None, 'A100.07', 'A108BA', 'A108KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -362,7 +363,7 @@ roomA109LI = Room(
     'A109 - Living room',
     None, 'A109BA', 'A100.09', 'A109KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -412,7 +413,7 @@ roomA110LI = Room(
     'A110 - Living room',
     None, 'A100.09', 'A110BA', 'A110KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -482,7 +483,7 @@ roomA111LI = Room(
     'A111 - Living room',
     None, 'A111BA', 'A100.12', 'A111KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -532,7 +533,7 @@ roomA112LI = Room(
     'A112 - Living room',
     None, 'A100.12', 'A112BA', 'A112KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -569,7 +570,7 @@ roomA113LI = Room(
     'A113 - Living room',
     None, 'A113BA', 'A100.14', 'A113KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -619,7 +620,7 @@ roomA114LI = Room(
     'A114 - Living room',
     None, 'A100.14', 'A114BA', 'A114KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -656,7 +657,7 @@ roomA115LI = Room(
     'A115 - Living room',
     None, 'A115BA', 'A100.16', 'A115KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -706,7 +707,7 @@ roomA116LI = Room(
     'A116 - Living room',
     None, 'A100.16', 'A116BA', 'A116KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -743,7 +744,7 @@ roomA117LI = Room(
     'A117 - Living room',
     None, 'A117BA', 'A100.18', 'A117KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -793,7 +794,7 @@ roomA118LI = Room(
     'A118 - Living room',
     None, 'A100.18', 'A118BA', 'A118KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -830,7 +831,7 @@ roomA119LI = Room(
     'A119 - Living room',
     None, 'A119BA', 'A100.20', 'A119KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -880,7 +881,7 @@ roomA120LI = Room(
     'A120 - Living room',
     None, 'A100.20', 'A120BA', 'A120KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -923,7 +924,7 @@ roomB101LI = Room(
     'B101 - Living room',
     None, 'B101BA', 'B100.01', 'B101KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -973,7 +974,7 @@ roomB102LI = Room(
     'B102 - Living room',
     None, 'B100.01', 'B102BA', 'B102KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1010,7 +1011,7 @@ roomB103LI = Room(
     'B103 - Living room',
     None, 'B103BA', 'B100.03', 'B103KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1060,7 +1061,7 @@ roomB104LI = Room(
     'B104 - Living room',
     None, 'B100.03', 'B104BA', 'B104KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1097,7 +1098,7 @@ roomB105LI = Room(
     'B105 - Living room',
     None, 'B105BA', 'B100.05', 'B105KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1147,7 +1148,7 @@ roomB106LI = Room(
     'B106 - Living room',
     None, 'B100.05', 'B106BA', 'B106KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1184,7 +1185,7 @@ roomB107LI = Room(
     'B107 - Living room',
     None, 'B107BA', 'B100.07', 'B107KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1234,7 +1235,7 @@ roomB108LI = Room(
     'B108 - Living room',
     None, 'B100.07', 'B108BA', 'B108KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1271,7 +1272,7 @@ roomB109LI = Room(
     'B109 - Living room',
     None, 'B109BA', 'B100.09', 'B109KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1321,7 +1322,7 @@ roomB110LI = Room(
     'B110 - Living room',
     None, 'B100.09', 'B110BA', 'B110KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1391,7 +1392,7 @@ roomB111LI = Room(
     'B111 - Living room',
     None, 'B111BA', 'B100.12', 'B111KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1441,7 +1442,7 @@ roomB112LI = Room(
     'B112 - Living room',
     None, 'B100.12', 'B112BA', 'B112KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1478,7 +1479,7 @@ roomB113LI = Room(
     'B113 - Living room',
     None, 'B113BA', 'B100.14', 'B113KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1528,7 +1529,7 @@ roomB114LI = Room(
     'B114 - Living room',
     None, 'B100.14', 'B114BA', 'B114KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1565,7 +1566,7 @@ roomB115LI = Room(
     'B115 - Living room',
     None, 'B115BA', 'B100.16', 'B115KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1615,7 +1616,7 @@ roomB116LI = Room(
     'B116 - Living room',
     None, 'B100.16', 'B116BA', 'B116KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1652,7 +1653,7 @@ roomB117LI = Room(
     'B117 - Living room',
     None, 'B117BA', 'B100.18', 'B117KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1702,7 +1703,7 @@ roomB118LI = Room(
     'B118 - Living room',
     None, 'B100.18', 'B118BA', 'B118KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1739,7 +1740,7 @@ roomB119LI = Room(
     'B119 - Living room',
     None, 'B119BA', 'B100.20', 'B119KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1789,7 +1790,7 @@ roomB120LI = Room(
     'B120 - Living room',
     None, 'B100.20', 'B120BA', 'B120KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1919,7 +1920,7 @@ roomA201LI = Room(
     'A201 - Living room',
     None, 'A201BA', 'A200.01', 'A201KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -1969,7 +1970,7 @@ roomA202LI = Room(
     'A202 - Living room',
     None, 'A200.01', 'A202BA', 'A202KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2006,7 +2007,7 @@ roomA203LI = Room(
     'A203 - Living room',
     None, 'A203BA', 'A200.03', 'A203KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2056,7 +2057,7 @@ roomA204LI = Room(
     'A204 - Living room',
     None, 'A200.03', 'A204BA', 'A204KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2093,7 +2094,7 @@ roomA205LI = Room(
     'A205 - Living room',
     None, 'A205BA', 'A200.05', 'A205KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2143,7 +2144,7 @@ roomA206LI = Room(
     'A206 - Living room',
     None, 'A200.05', 'A206BA', 'A206KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2180,7 +2181,7 @@ roomA207LI = Room(
     'A207 - Living room',
     None, 'A207BA', 'A200.07', 'A207KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2230,7 +2231,7 @@ roomA208LI = Room(
     'A208 - Living room',
     None, 'A200.07', 'A208BA', 'A208KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2267,7 +2268,7 @@ roomA209LI = Room(
     'A209 - Living room',
     None, 'A209BA', 'A200.09', 'A209KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2317,7 +2318,7 @@ roomA210LI = Room(
     'A210 - Living room',
     None, 'A200.09', 'A210BA', 'A210KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2387,7 +2388,7 @@ roomA211LI = Room(
     'A211 - Living room',
     None, 'A211BA', 'A200.12', 'A211KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2437,7 +2438,7 @@ roomA212LI = Room(
     'A212 - Living room',
     None, 'A200.12', 'A212BA', 'A212KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2474,7 +2475,7 @@ roomA213LI = Room(
     'A213 - Living room',
     None, 'A213BA', 'A200.14', 'A213KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2524,7 +2525,7 @@ roomA214LI = Room(
     'A214 - Living room',
     None, 'A200.14', 'A214BA', 'A214KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2561,7 +2562,7 @@ roomA215LI = Room(
     'A215 - Living room',
     None, 'A215BA', 'A200.16', 'A215KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2611,7 +2612,7 @@ roomA216LI = Room(
     'A216 - Living room',
     None, 'A200.16', 'A216BA', 'A216KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2648,7 +2649,7 @@ roomA217LI = Room(
     'A217 - Living room',
     None, 'A217BA', 'A200.18', 'A217KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2698,7 +2699,7 @@ roomA218LI = Room(
     'A218 - Living room',
     None, 'A200.18', 'A218BA', 'A218KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2735,7 +2736,7 @@ roomA219LI = Room(
     'A219 - Living room',
     None, 'A219BA', 'A200.20', 'A219KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2785,7 +2786,7 @@ roomA220LI = Room(
     'A220 - Living room',
     None, 'A200.20', 'A220BA', 'A220KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2828,7 +2829,7 @@ roomB201LI = Room(
     'B201 - Living room',
     None, 'B201BA', 'B200.01', 'B201KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2878,7 +2879,7 @@ roomB202LI = Room(
     'B202 - Living room',
     None, 'B200.01', 'B202BA', 'B202KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -2915,7 +2916,7 @@ roomB203LI = Room(
     'B203 - Living room',
     None, 'B203BA', 'B200.03', 'B203KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(),
      Mobile(MobileMessage('''
                           You on August 2, 2024:\n
@@ -3002,7 +3003,7 @@ roomB204LI = Room(
     'B204 - Living room',
     None, 'B200.03', 'B204BA', 'B204KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3039,7 +3040,7 @@ roomB205LI = Room(
     'B205 - Living room',
     None, 'B205BA', 'B200.05', 'B205KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3089,7 +3090,7 @@ roomB206LI = Room(
     'B206 - Living room',
     None, 'B200.05', 'B206BA', 'B206KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3126,7 +3127,7 @@ roomB207LI = Room(
     'B207 - Living room',
     None, 'B207BA', 'B200.07', 'B207KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3176,7 +3177,7 @@ roomB208LI = Room(
     'B208 - Living room',
     None, 'B200.07', 'B208BA', 'B208KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3213,7 +3214,7 @@ roomB209LI = Room(
     'B209 - Living room',
     None, 'B209BA', 'B200.09', 'B209KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3263,7 +3264,7 @@ roomB210LI = Room(
     'B210 - Living room',
     None, 'B200.09', 'B210BA', 'B210KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3333,7 +3334,7 @@ roomB211LI = Room(
     'B211 - Living room',
     None, 'B211BA', 'B200.12', 'B211KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3383,7 +3384,7 @@ roomB212LI = Room(
     'B212 - Living room',
     None, 'B200.12', 'B212BA', 'B212KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3420,7 +3421,7 @@ roomB213LI = Room(
     'B213 - Living room',
     None, 'B213BA', 'B200.14', 'B213KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3470,7 +3471,7 @@ roomB214LI = Room(
     'B214 - Living room',
     None, 'B200.14', 'B214BA', 'B214KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3507,7 +3508,7 @@ roomB215LI = Room(
     'B215 - Living room',
     None, 'B215BA', 'B200.16', 'B215KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3557,7 +3558,7 @@ roomB216LI = Room(
     'B216 - Living room',
     None, 'B200.16', 'B216BA', 'B216KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3594,7 +3595,7 @@ roomB217LI = Room(
     'B217 - Living room',
     None, 'B217BA', 'B200.18', 'B217KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3644,7 +3645,7 @@ roomB218LI = Room(
     'B218 - Living room',
     None, 'B200.18', 'B218BA', 'B218KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3681,7 +3682,7 @@ roomB219LI = Room(
     'B219 - Living room',
     None, 'B219BA', 'B200.20', 'B219KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3731,7 +3732,7 @@ roomB220LI = Room(
     'B220 - Living room',
     None, 'B200.20', 'B220BA', 'B220KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3814,7 +3815,7 @@ roomA301LI = Room(
     'A301 - Living room',
     None, 'A301BA', 'A300.01', 'A301KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3864,7 +3865,7 @@ roomA302LI = Room(
     'A302 - Living room',
     None, 'A300.01', 'A302BA', 'A302KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3901,7 +3902,7 @@ roomA303LI = Room(
     'A303 - Living room',
     None, 'A303BA', 'A300.03', 'A303KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket(),
      Mobile(MobileMessage('''
@@ -3958,7 +3959,7 @@ roomA304LI = Room(
     'A304 - Living room',
     None, 'A300.03', 'A304BA', 'A304KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -3995,7 +3996,7 @@ roomA305LI = Room(
     'A305 - Living room',
     None, 'A305BA', 'A300.05', 'A305KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4045,7 +4046,7 @@ roomA306LI = Room(
     'A306 - Living room',
     None, 'A300.05', 'A306BA', 'A306KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4082,7 +4083,7 @@ roomA307LI = Room(
     'A307 - Living room',
     None, 'A307BA', 'A300.07', 'A307KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4132,7 +4133,7 @@ roomA308LI = Room(
     'A308 - Living room',
     None, 'A300.07', 'A308BA', 'A308KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4171,7 +4172,7 @@ roomA309LI = Room(
     'A309 - Living room',
     None, 'A309BA', 'A300.09', 'A309KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4221,7 +4222,7 @@ roomA310LI = Room(
     'A310 - Living room',
     None, 'A300.09', 'A310BA', 'A310KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4291,7 +4292,7 @@ roomA311LI = Room(
     'A311 - Living room',
     None, 'A311BA', 'A300.12', 'A311KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4341,7 +4342,7 @@ roomA312LI = Room(
     'A312 - Living room',
     None, 'A300.12', 'A312BA', 'A312KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4378,7 +4379,7 @@ roomA313LI = Room(
     'A313 - Living room',
     None, 'A313BA', 'A300.14', 'A313KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4428,7 +4429,7 @@ roomA314LI = Room(
     'A314 - Living room',
     None, 'A300.14', 'A314BA', 'A314KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4465,7 +4466,7 @@ roomA315LI = Room(
     'A315 - Living room',
     None, 'A315BA', 'A300.16', 'A315KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4515,7 +4516,7 @@ roomA316LI = Room(
     'A316 - Living room',
     None, 'A300.16', 'A316BA', 'A316KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4552,7 +4553,7 @@ roomA317LI = Room(
     'A317 - Living room',
     None, 'A317BA', 'A300.18', 'A317KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4602,7 +4603,7 @@ roomA318LI = Room(
     'A318 - Living room',
     None, 'A300.18', 'A318BA', 'A318KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4639,7 +4640,7 @@ roomA319LI = Room(
     'A319 - Living room',
     None, 'A319BA', 'A300.20', 'A319KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4689,7 +4690,7 @@ roomA320LI = Room(
     'A320 - Living room',
     None, 'A300.20', 'A320BA', 'A320KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4732,7 +4733,7 @@ roomB301LI = Room(
     'B301 - Living room',
     None, 'B301BA', 'B300.01', 'B301KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4782,7 +4783,7 @@ roomB302LI = Room(
     'B302 - Living room',
     None, 'B300.01', 'B302BA', 'B302KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4819,7 +4820,7 @@ roomB303LI = Room(
     'B303 - Living room',
     None, 'B303BA', 'B300.03', 'B303KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4869,7 +4870,7 @@ roomB304LI = Room(
     'B304 - Living room',
     None, 'B300.03', 'B304BA', 'B304KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4906,7 +4907,7 @@ roomB305LI = Room(
     'B305 - Living room',
     None, 'B305BA', 'B300.05', 'B305KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(KeyA308()), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4956,7 +4957,7 @@ roomB306LI = Room(
     'B306 - Living room',
     None, 'B300.05', 'B306BA', 'B306KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -4993,7 +4994,7 @@ roomB307LI = Room(
     'B307 - Living room',
     None, 'B307BA', 'B300.07', 'B307KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5043,7 +5044,7 @@ roomB308LI = Room(
     'B308 - Living room',
     None, 'B300.07', 'B308BA', 'B308KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5080,7 +5081,7 @@ roomB309LI = Room(
     'B309 - Living room',
     None, 'B309BA', 'B300.09', 'B309KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5130,7 +5131,7 @@ roomB310LI = Room(
     'B310 - Living room',
     None, 'B300.09', 'B310BA', 'B310KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5200,7 +5201,7 @@ roomB311LI = Room(
     'B311 - Living room',
     None, 'B311BA', 'B300.12', 'B311KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5250,7 +5251,7 @@ roomB312LI = Room(
     'B312 - Living room',
     None, 'B300.12', 'B312BA', 'B312KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5287,7 +5288,7 @@ roomB313LI = Room(
     'B313 - Living room',
     None, 'B313BA', 'B300.14', 'B313KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5337,7 +5338,7 @@ roomB314LI = Room(
     'B314 - Living room',
     None, 'B300.14', 'B314BA', 'B314KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5374,7 +5375,7 @@ roomB315LI = Room(
     'B315 - Living room',
     None, 'B315BA', 'B300.16', 'B315KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5424,7 +5425,7 @@ roomB316LI = Room(
     'B316 - Living room',
     None, 'B300.16', 'B316BA', 'B316KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5461,7 +5462,7 @@ roomB317LI = Room(
     'B317 - Living room',
     None, 'B317BA', 'B300.18', 'B317KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5511,7 +5512,7 @@ roomB318LI = Room(
     'B318 - Living room',
     None, 'B300.18', 'B318BA', 'B318KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5548,7 +5549,7 @@ roomB319LI = Room(
     'B319 - Living room',
     None, 'B319BA', 'B300.20', 'B319KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )
@@ -5598,7 +5599,7 @@ roomB320LI = Room(
     'B320 - Living room',
     None, 'B300.20', 'B320BA', 'B320KI',
     {'dn':None, 'dw':None, 'de':None, 'ds':None},
-    [Couch(), TV(), TVTable(), RemoteControl(),
+    [Couch(), TV(BreakingNews('The twister reaches the hotel in '+str(round(600 - (time() - start_time)))+' seconds.')), TVTable(), RemoteControl(),
      CoffeeTable(), Armchair(), Armchair(), Painting(),
      Painting(), Plant(), Plant(), Socket()]
     )

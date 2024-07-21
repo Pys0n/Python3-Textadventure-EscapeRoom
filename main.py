@@ -18,7 +18,9 @@ elif os == 'Windows':
 
 
 def main():
-    global escape, room, secrets, secret_data, lvl
+    global escape, room, secrets, secret_data, lvl, extreme
+    if extreme:
+        from timer_extreme import start_time
     while escape:
         eval('system("'+clear+'")')
 
@@ -527,6 +529,11 @@ def main():
                             print('It says on the carpet:\n')
                             print(room.interactions[index].item.text)
                             input('\nContinue...')
+                        elif room.interactions[index].item.name == 'Breaking News':
+                            room.interactions[index].item.reloadText(f'The twister reaches the hotel in {str(round(600 - (time() - start_time)))} seconds.')
+                            print('Breaking News:\n')
+                            print(room.interactions[index].item.text)
+                            input('\nContinue...')
                         elif room.interactions[index].name == 'SECRET':
                             print('You have found a secret:\n')
                             print(room.interactions[index].item.text)
@@ -603,6 +610,8 @@ if __name__ == '__main__':
                             break
                         elif room_choice == '1':
                 
+                            extreme = False
+
                             from room_tutorial import *
                             inventory = []
                             
@@ -660,6 +669,8 @@ if __name__ == '__main__':
                         elif room_choice == '1':
                             lvl = 0
                             
+                            extreme = False
+
                             from room_easy import *
                             inventory = []
 
@@ -716,6 +727,8 @@ if __name__ == '__main__':
                             break
                         elif room_choice == '1':
                             lvl = 1
+
+                            extreme = False
 
                             from room_normal import *
                             inventory = []
@@ -774,6 +787,8 @@ if __name__ == '__main__':
                         elif room_choice == '1':
                             lvl = 2
                             
+                            extreme = False
+
                             from room_hard import *
                             inventory = []
 
@@ -833,6 +848,8 @@ if __name__ == '__main__':
                             
                             print('Loading...')
                             
+                            extreme = True
+
                             from room_extreme import *
                             from keys_extreme import *
 
