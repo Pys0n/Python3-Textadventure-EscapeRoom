@@ -22,6 +22,8 @@ def main():
     global escape, room, secrets, secret_data, lvl, extreme, time_up
     if extreme:
         from timer_extreme import start_time
+        print('Breaking news on the TV:\n\nA twister approaches a hotel in the east of the country. It reaches it in '+str(round(1200 - (time() - start_time)))+' seconds.\nThe only safe place is the cellar.')
+        input('\nContinue...')
     while escape:
         eval('system("'+clear+'")')
 
