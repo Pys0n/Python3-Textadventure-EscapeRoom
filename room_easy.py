@@ -72,3 +72,7 @@ rooms = {
 }
 
 room = roomC3
+
+def showMap():
+    print()
+    input('\nContinue...')

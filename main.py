@@ -7,6 +7,7 @@ import platform
 from objects import *
 from items import *
 from room import *
+#from maps import *
 
 PATH = pathlib.Path().parent.resolve()
 
@@ -19,7 +20,7 @@ elif os == 'Windows':
 time_up = False
 
 def main():
-    global escape, room, secrets, secret_data, lvl, extreme, time_up
+    global escape, room, secrets, secret_data, lvl, extreme, time_up, room_num
     if extreme:
         from timer_extreme import start_time
         print('Breaking news on the TV:\n\nA twister approaches a hotel in the east of the country. It reaches it in '+str(round(1200 - (time() - start_time)))+' seconds.\nThe only safe place is the cellar.')
@@ -62,6 +63,7 @@ def main():
         if room.de: print('D - To the right' if room.e_information == None else 'D - To the right ['+room.e_information+']')
         elif room.e_information != None: print('D - ['+room.e_information+']')
         print('\nI - inspect')
+        print('O - open Map')
         print('0 - leave')
         choice = input('\nChoose: ')
 
@@ -586,6 +588,10 @@ def main():
                     eval('system("'+clear+'")')
                     print(interaction_choice, 'is not a number!')
                     input('\nContinue...')
+        elif choice.lower() == 'o':
+            eval('system("'+clear+'")')
+            showMap()
+            eval('system("'+clear+'")')
         elif choice.lower() == '0':
             eval('system("'+clear+'")')
             if input('Do you really want to leave the escape room (y/n)? ').lower() == 'y':
@@ -644,6 +650,7 @@ if __name__ == '__main__':
 
                             from room_tutorial import *
                             inventory = []
+                            room_num = 1
                             
                             escape = True
                             start_time=time()
@@ -703,6 +710,7 @@ if __name__ == '__main__':
 
                             from room_easy import *
                             inventory = []
+                            room_num = 2
 
                             escape = True
                             start_time=time()
@@ -762,6 +770,7 @@ if __name__ == '__main__':
 
                             from room_normal import *
                             inventory = []
+                            room_num = 3
 
                             escape = True
                             start_time=time()
@@ -821,6 +830,7 @@ if __name__ == '__main__':
 
                             from room_hard import *
                             inventory = []
+                            room_num = 4
 
                             escape = True
                             start_time=time()
@@ -884,6 +894,7 @@ if __name__ == '__main__':
                             from keys_extreme import *
 
                             inventory = [KeyA303()]
+                            room_num = 5
                             
                             eval('system("'+clear+'")')
 

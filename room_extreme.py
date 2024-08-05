@@ -5890,3 +5890,7 @@ rooms = {
 }
 
 room = roomA303LI
+
+def showMap():
+    print()
+    input('\nContinue...')

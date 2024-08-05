@@ -35,3 +35,7 @@ rooms = {
 }
 
 room = roomB1
+
+def showMap():
+    print()
+    input('\nContinue...')
