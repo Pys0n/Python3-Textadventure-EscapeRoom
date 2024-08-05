@@ -73,6 +73,18 @@ rooms = {
 
 room = roomC3
 
-def showMap():
-    print()
+def showMap(room):
+    print('┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓')
+    print('┃         ┃         ┃         ┃')
+    print('┃    '+('X' if room.name == 'A1' else ' ')+'    ┃    '+('X' if room.name == 'A2' else ' ')+'    ┃    '+('X' if room.name == 'A3' else ' ')+'    ┃')
+    print('┃         ┃         ┃         ┃')
+    print('┣━━━   ━━━╋━━━   ━━━┳━━━   ━━━┫')
+    print('┃         ┃         ┃         ┃')
+    print('┃    '+('X' if room.name == 'B1' else ' ')+'         '+('X' if room.name == 'B2' else ' ')+'         '+('X' if room.name == 'B3' else ' ')+'      ➡ EXIT ➡')
+    print('┃         ┃         ┃         ┃')
+    print('┣━━━   ━━━╋━━━━━━━━━╋━━━━━━━━━┫')
+    print('┃         ┃         ┃         ┃')
+    print('┃    '+('X' if room.name == 'C1' else ' ')+'         '+('X' if room.name == 'C2' else ' ')+'         '+('X' if room.name == 'C3' else ' ')+'    ┃')
+    print('┃         ┃         ┃         ┃')
+    print('┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛')
     input('\nContinue...')

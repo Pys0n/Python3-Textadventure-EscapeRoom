@@ -510,7 +510,7 @@ def main():
                 for object in room.interactions:
                     print(run, '-', object.name)
                     run += 1
-                print('\ni - Back')
+                print('\nI - Back')
                 interaction_choice = input('\nInspect Number: ')
                 eval('system("'+clear+'")')
                 if interaction_choice.lower() == 'i':
@@ -590,7 +590,7 @@ def main():
                     input('\nContinue...')
         elif choice.lower() == 'o':
             eval('system("'+clear+'")')
-            showMap()
+            showMap(room)
             eval('system("'+clear+'")')
         elif choice.lower() == '0':
             eval('system("'+clear+'")')

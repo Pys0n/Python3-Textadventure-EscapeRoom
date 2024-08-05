@@ -369,6 +369,6 @@ rooms = {
 
 room = roomA7
 
-def showMap():
+def showMap(room):
     print()
     input('\nContinue...')
