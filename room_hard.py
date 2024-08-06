@@ -370,5 +370,22 @@ rooms = {
 room = roomA7
 
 def showMap(room):
-    print()
+    print('┏━━━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━┓')
+    print('┃ '+('X' if room.name == 'A1' else ' ')+'   '+('X' if room.name == 'A2' else ' ')+'   '+('X' if room.name == 'A3' else ' ')+'   '+('X' if room.name == 'A4' else ' ')+'   '+('X' if room.name == 'A5' else ' ')+'   '+('X' if room.name == 'A6' else ' ')+'   '+('X' if room.name == 'A7' else ' ')+' ┃')
+    print('┣   ╋━━━╋━━━╋   ╋━━━╋━━━╋   ┫')
+    print('┃ '+('X' if room.name == 'B1' else ' ')+' ┃ '+('X' if room.name == 'B2' else ' ')+'   '+('X' if room.name == 'B3' else ' ')+'   '+('X' if room.name == 'B4' else ' ')+' ┃ '+('X' if room.name == 'B5' else ' ')+'   '+('X' if room.name == 'B6' else ' ')+'   '+('X' if room.name == 'B7' else ' ')+' ┃')
+    print('┣   ╋   ╋━━━╋━━━╋   ╋   ╋   ┫')
+    print('┃ '+('X' if room.name == 'C1' else ' ')+' ┃ '+('X' if room.name == 'C2' else ' ')+'   '+('X' if room.name == 'C3' else ' ')+'   '+('X' if room.name == 'C4' else ' ')+' ┃ '+('X' if room.name == 'C5' else ' ')+'   '+('X' if room.name == 'C6' else ' ')+'   '+('X' if room.name == 'C7' else ' ')+' ┃')
+    print('┣   ╋━━━╋━━━╋━━━╋   ╋━━━╋━━━┫')
+    print('┃ '+('X' if room.name == 'D1' else ' ')+' ┃ '+('X' if room.name == 'D2' else ' ')+'   '+('X' if room.name == 'D3' else ' ')+'   '+('X' if room.name == 'D4' else ' ')+'   '+('X' if room.name == 'D5' else ' ')+' ┃ '+('X' if room.name == 'D6' else ' ')+'   '+('X' if room.name == 'D7' else ' ')+' ┃')
+    print('┣   ╋━━━╋━━━╋━━━╋━━━╋   ╋━━━┫')
+    print('┃ '+('X' if room.name == 'E1' else ' ')+'   '+('X' if room.name == 'E2' else ' ')+'   '+('X' if room.name == 'E3' else ' ')+'   '+('X' if room.name == 'E4' else ' ')+'   '+('X' if room.name == 'E5' else ' ')+'   '+('X' if room.name == 'E6' else ' ')+'   '+('X' if room.name == 'E7' else ' ')+' ┃')
+    print('┣   ╋━━━╋━━━╋━━━╋━━━╋━━━╋━━━┫')
+    print('┃ '+('X' if room.name == 'F1' else ' ')+' ┃ '+('X' if room.name == 'F2' else ' ')+' ┃ '+('X' if room.name == 'F3' else ' ')+'   '+('X' if room.name == 'F4' else ' ')+'   '+('X' if room.name == 'F5' else ' ')+'   '+('X' if room.name == 'F6' else ' ')+'   '+('X' if room.name == 'F7' else ' ')+' ┃')
+    print('┣   ╋   ╋   ╋━━━╋━━━╋━━━╋   ┫')
+    print('┃ '+('X' if room.name == 'G1' else ' ')+'   '+('X' if room.name == 'G2' else ' ')+'   '+('X' if room.name == 'G3' else ' ')+'   '+('X' if room.name == 'G4' else ' ')+'   '+('X' if room.name == 'G5' else ' ')+'   '+('X' if room.name == 'G6' else ' ')+' ┃ '+('X' if room.name == 'G7' else ' ')+' ┃')
+    print('┗━━━┻━━━┻━━━┻━━━┻━━━┻━━━┻ ⬇ ┛')
+    print('                        EXIT ')
     input('\nContinue...')
+
+# ━ ┃ ╋ ┻ ┳ ┫ ┣ ┛ ┏ ┗ ┓ ⬅ ⬇ ➡ ⬆

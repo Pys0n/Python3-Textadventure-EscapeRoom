@@ -78,7 +78,7 @@ def showMap(room):
     print('┃         ┃         ┃         ┃')
     print('┃    '+('X' if room.name == 'A1' else ' ')+'    ┃    '+('X' if room.name == 'A2' else ' ')+'    ┃    '+('X' if room.name == 'A3' else ' ')+'    ┃')
     print('┃         ┃         ┃         ┃')
-    print('┣━━━   ━━━╋━━━   ━━━┳━━━   ━━━┫')
+    print('┣━━━   ━━━╋━━━   ━━━╋━━━   ━━━┫')
     print('┃         ┃         ┃         ┃')
     print('┃    '+('X' if room.name == 'B1' else ' ')+'         '+('X' if room.name == 'B2' else ' ')+'         '+('X' if room.name == 'B3' else ' ')+'      ➡ EXIT ➡')
     print('┃         ┃         ┃         ┃')
