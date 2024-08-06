@@ -387,5 +387,3 @@ def showMap(room):
     print('┗━━━┻━━━┻━━━┻━━━┻━━━┻━━━┻ ⬇ ┛')
     print('                        EXIT ')
     input('\nContinue...')
-
-# ━ ┃ ╋ ┻ ┳ ┫ ┣ ┛ ┏ ┗ ┓ ⬅ ⬇ ➡ ⬆

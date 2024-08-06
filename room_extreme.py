@@ -6,6 +6,156 @@ from room import *
 from keys_extreme import *
 from timer_extreme import *
 
+
+def showMap(room):
+    if 'A1' in room.name or 'B1' in room.name or 'M1' in room.name:
+        print(' ┏━━━┳━━━┳━━━┳━━━┳━━━┓               ┏━━━┳━━━┳━━━┳━━━┳━━━┓')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A101━╋   ╋   ╋   ╋━A102             B101━╋   ╋   ╋   ╋━B102')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A103━╋   ╋   ╋   ╋━A104             B103━╋   ╋   ╋   ╋━B104')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A105━╋   ╋   ╋   ╋━A106             B105━╋   ╋   ╋   ╋━B106')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A107━╋   ╋   ╋   ╋━A108             B107━╋   ╋   ╋   ╋━B108')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A109━╋   ╋   ╋   ╋━A110  ┏━━━┳━━━┓  B109━╋   ╋   ╋   ╋━B110')
+        print(' ┃       ┃   ┃       ┃   ┃⬇C⬇┃ ⬆ ┃   ┃       ┃   ┃       ┃')
+        print(' ┣━━━┻━━━╋   ╋━━━╋━━━╋━P━╋   ╋   ╋━P━╋━━━┻━━━╋   ╋━━━╋━━━┫')
+        print(' ┃Storage            S               S            Storage┃')
+        print(' ┣━━━┳━━━╋   ╋━━━╋━━━╋━━━╋   ┻   ╋━━━╋━━━┳━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃ K Reception K ┃                   ┃')
+        print('A111━╋   ╋   ╋   ╋━A112━━┻ ⬇ ━ ⬇ ┻━━B111━╋   ╋   ╋   ╋━B112')
+        print(' ┃       ┃   ┃       ┃     EXIT      ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫     ⬇   ⬇     ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A113━╋   ╋   ╋   ╋━A114             B113━╋   ╋   ╋   ╋━B114')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A115━╋   ╋   ╋   ╋━A116             B115━╋   ╋   ╋   ╋━B116')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A117━╋   ╋   ╋   ╋━A118             B117━╋   ╋   ╋   ╋━B118')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A119━╋   ╋   ╋   ╋━A120             B119━╋   ╋   ╋   ╋━B120')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┗━━━┻━━━┻━━━┻━━━┻━━━┛               ┗━━━┻━━━┻━━━┻━━━┻━━━┛ ')
+    elif 'A2' in room.name or 'B2' in room.name or 'M2' in room.name:
+        print(' ┏━━━┳━━━┳━━━┳━━━┳━━━┓               ┏━━━┳━━━┳━━━┳━━━┳━━━┓')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A201━╋   ╋   ╋   ╋━A202             B201━╋   ╋   ╋   ╋━B202')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A203━╋   ╋   ╋   ╋━A204             B203━╋   ╋   ╋   ╋━B204')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A205━╋   ╋   ╋   ╋━A206             B205━╋   ╋   ╋   ╋━B206')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A207━╋   ╋   ╋   ╋━A208             B207━╋   ╋   ╋   ╋━B208')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A209━╋   ╋   ╋   ╋━A210  ┏━━━┳━━━┓  B209━╋   ╋   ╋   ╋━B210')
+        print(' ┃       ┃   ┃       ┃   ┃ ⬇ ┃ ⬆ ┃   ┃       ┃   ┃       ┃')
+        print(' ┣━━━┻━━━╋   ╋━━━╋━━━╋━P━╋   ╋   ╋━P━╋━━━┻━━━╋   ╋━━━╋━━━┫')
+        print(' ┃Storage            S               S            Storage┃')
+        print(' ┣━━━┳━━━╋   ╋━━━╋━━━╋━━━┻━━━┻━━━┻━━━╋━━━┳━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃     M200      ┃                   ┃')
+        print('A211━╋   ╋   ╋   ╋━A212             B211━╋   ╋   ╋   ╋━B212')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A213━╋   ╋   ╋   ╋━A214             B213━╋   ╋   ╋   ╋━B214')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A215━╋   ╋   ╋   ╋━A216             B215━╋   ╋   ╋   ╋━B216')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A217━╋   ╋   ╋   ╋━A218             B217━╋   ╋   ╋   ╋━B218')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A219━╋   ╋   ╋   ╋━A220             B219━╋   ╋   ╋   ╋━B220')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┗━━━┻━━━┻━━━┻━━━┻━━━┛               ┗━━━┻━━━┻━━━┻━━━┻━━━┛ ')
+    elif 'A3' in room.name or 'B3' in room.name or 'M3' in room.name:
+        print(' ┏━━━┳━━━┳━━━┳━━━┳━━━┓               ┏━━━┳━━━┳━━━┳━━━┳━━━┓')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A301━╋   ╋   ╋   ╋━A302             B301━╋   ╋   ╋   ╋━B302')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A303━╋   ╋   ╋   ╋━A304             B303━╋   ╋   ╋   ╋━B304')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A305━╋   ╋   ╋   ╋━A306             B305━╋   ╋   ╋   ╋━B306')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A307━╋   ╋   ╋   ╋━A308             B307━╋   ╋   ╋   ╋━B308')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A309━╋   ╋   ╋   ╋━A310  ┏━━━┓      B309━╋   ╋   ╋   ╋━B310')
+        print(' ┃       ┃   ┃       ┃   ┃ ⬇ ┃       ┃       ┃   ┃       ┃')
+        print(' ┣━━━┻━━━╋   ╋━━━╋━━━╋━P━╋   ╋━━━┳━P━╋━━━┻━━━╋   ╋━━━╋━━━┫')
+        print(' ┃Storage            S               S            Storage┃')
+        print(' ┣━━━┳━━━╋   ╋━━━╋━━━╋━━━┻━━━┻━━━┻━━━╋━━━┳━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃     M300      ┃                   ┃')
+        print('A311━╋   ╋   ╋   ╋━A312             B311━╋   ╋   ╋   ╋━B312')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A313━╋   ╋   ╋   ╋━A314             B313━╋   ╋   ╋   ╋━B314')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A315━╋   ╋   ╋   ╋━A316             B315━╋   ╋   ╋   ╋━B316')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A317━╋   ╋   ╋   ╋━A318             B317━╋   ╋   ╋   ╋━B318')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┣━━━╋━━━╋   ╋━━━╋━━━┫               ┣━━━╋━━━╋   ╋━━━╋━━━┫')
+        print(' ┃                   ┃               ┃                   ┃')
+        print('A319━╋   ╋   ╋   ╋━A320             B319━╋   ╋   ╋   ╋━B320')
+        print(' ┃       ┃   ┃       ┃               ┃       ┃   ┃       ┃')
+        print(' ┗━━━┻━━━┻━━━┻━━━┻━━━┛               ┗━━━┻━━━┻━━━┻━━━┻━━━┛ ')
+    print()
+    print('C - Cellar')
+    print('K - key bearing')
+    print('S - security door')
+    print('P - site plan')
+    print('⬆ - upstairs')
+    print('⬇ - downstairs')
+    input('\nContinue...')
+
+class SitePlan(Object):
+    def __init__(self, item=None):
+        super().__init__('Site plan', item, 6)
+
+    def use():
+        showMap()
+
 ###########################################################################################################################################
 ###############################################################    A100    ################################################################
 ###########################################################################################################################################
@@ -1872,7 +2022,7 @@ roomM100_1 = Room(
     None, 'A100.11.2', 'M100.2', None,
     {'dn':None, 'dw':KeySecurityDoorA100(), 'de':None, 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
-    Socket(), Painting()]
+    Socket(), Painting(), SitePlan()]
     )
 
 roomM100_2 = Room(
@@ -1896,7 +2046,7 @@ roomM100_4 = Room(
     None, 'M100.3', 'B100.11.2', None,
     {'dn':None, 'dw':None, 'de':KeySecurityDoorB100(), 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
-    Socket(), Painting()]
+    Socket(), Painting(), SitePlan()]
     )
 
 roomRM100 = Room(
@@ -3856,7 +4006,7 @@ roomM200_1 = Room(
     None, 'A200.11.2', 'M200.2', None,
     {'dn':None, 'dw':KeySecurityDoorA200(), 'de':None, 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
-    Socket(), Painting()]
+    Socket(), Painting(), SitePlan()]
     )
 
 roomM200_2 = Room(
@@ -3880,7 +4030,7 @@ roomM200_4 = Room(
     None, 'M200.3', 'B200.11.2', None,
     {'dn':None, 'dw':None, 'de':KeySecurityDoorB200(), 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
-    Socket(), Painting()]
+    Socket(), Painting(), SitePlan()]
     )
 
 
@@ -5763,7 +5913,7 @@ roomM300_1 = Room(
     None, 'A300.11.2', 'M300.2', None,
     {'dn':None, 'dw':KeySecurityDoorA300(), 'de':None, 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
-    Socket(), Painting()]
+    Socket(), Painting(), SitePlan()]
     )
 
 roomM300_2 = Room(
@@ -5787,7 +5937,7 @@ roomM300_4 = Room(
     None, 'M300.3', 'B300.11.2', None,
     {'dn':None, 'dw':None, 'de':KeySecurityDoorB300(), 'ds':None},
     [Plant(), Plant(), Plant(), Plant(),
-    Socket(), Painting()]
+    Socket(), Painting(), SitePlan()]
     )
 
 ###########################################################################################################################################
@@ -5890,7 +6040,3 @@ rooms = {
 }
 
 room = roomA303LI
-
-def showMap(room):
-    print()
-    input('\nContinue...')
